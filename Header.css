@@ -1,0 +1,56 @@
+body{
+    margin:0;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+    height:115px;
+    width: 100%;
+}
+div {
+    display:flex;
+    align-items: center;
+}
+div div{
+    display:flex;
+    align-items: flex-start;
+    flex-direction:column;
+}
+.textheader{
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.shoppingcarttext{
+    font-family: "Gill Sans", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+    text-decoration: none;
+}
+.thelupaonheader{
+    margin-right: 5px;
+}
+.center{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.leftside{
+    padding-left:20px;
+}
+.rightside{
+    padding-right:20px;
+}
+
+
+
+
+
+

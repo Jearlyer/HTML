@@ -4,7 +4,7 @@
 body{
     font-family: "Oswald", sans-serif;
     margin:0;
-    background-color:ghostwhite;
+    background-color:white;
 }
 
 .header-1 {
@@ -118,7 +118,7 @@ body{
 }
 
 .first-frame-container{
-    position: fixed;
+    position: absolute;
 }
 
 .black-dress{
@@ -137,13 +137,13 @@ body{
 }
 
 .text-shop-now{
-    display: inline-block;
+    display: flex;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
     color: black;
     text-transform: uppercase;
-    padding: 0 42px 0 42px;
+    padding: 0 52px 0 52px;
     border: solid black 3px;
     text-decoration: none;
     position: absolute;
@@ -238,4 +238,358 @@ body{
     background-color:black;
 }
 
+.frame-with-brands{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.frane-with-brands-container{
+    position:absolute;
+    width: 1878px;
+    height: 221px;
+    top:800px;
+    display:flex;
+    justify-content: center;
+}
+.frame-with-brands-text{
+    position:absolute;
+    font-size: 24px ;
+    text-transform: uppercase;
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.brands-line{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:22px;
+    padding: 28px 0 29px;
+    border:1px solid #C4C4C4;
+}
+.brands-line-element{
+    width:235px;
+    height:141px;
+    margin-inline-end: 16px;
+    margin-inline-start: 16px;
+}
+.brands-line-element:hover{
+    background-color:rgba(240, 242, 242, 1);
+}
+.frame-with-discount{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.frame-with-discount-container{
+    margin-top:30px;
+    display:grid;
+    grid-template:434px 30px 434px / 924px 30px 924px;
+    position:absolute;
+    width: 1878px;
+    height: 898px;
+    top:1021px;
+}
 
+.all-girl-in-a-hat{
+    grid-area: 1/1/2/2;
+}
+
+.text-girl-in-a-hat{
+    position:absolute;
+    font-size:48px;
+    line-height:62px;
+    left:490px;
+    top:82px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.subtext-girl-in-a-hat{
+    position:absolute;
+    left:490px;
+    top:213px;
+    font-family:"Roboto Light", sans-serif;
+    font-size:22px;
+    line-height:37px;
+}
+
+.see-offers-girl-in-a-hat{
+    position:absolute;
+    left:490px;
+    top:295px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:black;
+    line-height:26px;
+    text-transform: uppercase;
+    border:3px solid black;
+    text-decoration: none;
+    padding: 17px 52px 17px 52px;
+}
+
+.all-afro-girl{
+    grid-area: 1/3/4/4;
+}
+.text-afro-girl{
+    position:absolute;
+    font-size:96px;
+    line-height:110px;
+    right:482px;
+    bottom:248px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.subtext-afro-girl{
+    position:absolute;
+    left:1040px;
+    bottom:210px;
+    font-family:"Roboto Light", sans-serif;
+    font-size:25px;
+    line-height:37px;
+}
+.see-offers-afro-girl{
+    position:absolute;
+    left:1040px;
+    bottom:103px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:black;
+    line-height:26px;
+    text-transform: uppercase;
+    border:3px solid black;
+    text-decoration: none;
+    padding: 17px 52px 17px 52px;
+}
+
+.all-girl-in-black-dress{
+    grid-area: 3/1/4/2;
+}
+
+.text-girl-in-black-dress{
+    position:absolute;
+    font-size:48px;
+    line-height:62px;
+    left:94px;
+    bottom:257px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.subtext-girl-in-black-dress{
+    position:absolute;
+    left:94px;
+    bottom:221px;
+    font-family:"Roboto Light", sans-serif;
+    font-size:22px;
+    line-height:37px;
+}
+.see-offers-girl-in-black-dress{
+    position:absolute;
+    left:94px;
+    bottom:115px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:black;
+    line-height:26px;
+    text-transform: uppercase;
+    border:3px solid black;
+    text-decoration: none;
+    padding: 17px 52px 17px 52px;
+}
+
+.frame-with-products{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.frame-with-products-container{
+    position:absolute;
+    display: grid;
+    grid-template:548px 48px 548px 152px / 395px 30px 1485px ;
+    width: 1878px;
+    height: 1300px;
+    top:2416px;
+}
+.check-frame-with-products{
+    grid-area: 1/1/5/2;
+    border-right: 1px solid rgba(196, 196, 196, 1)
+}
+.shop-some-wear{
+    font-family:"Oswald", sans-serif;
+    font-weight: 400;
+    font-size:24px;
+    color:rgba(130, 130, 130, 1);
+    color: black;
+    margin-inline-end: 20px;
+    padding-bottom: 20px;
+}
+.checkbox-in-frame-with-products{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    color:rgba(63, 63, 63, 1);
+    text-transform:uppercase;
+}
+.checkbox-in-frame-with-products-elements{
+    padding-bottom: 14px;
+}
+.first-row-frame-with-products{
+    grid-area: 1/3/2/4;
+    display: grid;
+    grid-template: 548px / 344px 26px 344px 26px 344gitpx 26px 344px;
+}
+.one-first-row-frame-with-products{
+    grid-area: 1/1/2/1;
+}
+.two-first-row-frame-with-products{
+    grid-area: 1/3/2/3;
+}
+.three-first-row-frame-with-products{
+    grid-area: 1/5/2/5;
+}
+.four-first-row-frame-with-products{
+    grid-area: 1/7/2/7;
+}
+.second-row-frame-with-products{
+    display:grid;
+    grid-area: 3/3/3/4;
+    grid-template: 548px / 344px 26px 344px 26px 344px 26px 344px;
+}
+.one-second-row-frame-with-products{
+    grid-area: 1/1/2/1;
+}
+.two-second-row-frame-with-products{
+    grid-area: 1/3/2/3;
+}
+.three-second-row-frame-with-products{
+    grid-area: 1/5/2/5;
+}
+.four-second-row-frame-with-products{
+    grid-area: 1/7/2/7;
+}
+.load-more-frame-with-products{
+    grid-area: 4/1/5/3;
+    position:absolute;
+    display:inline-block;
+    width:70px;
+    bottom:40px;
+    left:1102px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    color:rgba(130, 130, 130, 1);
+    line-height:21px;
+    text-transform: uppercase;
+    border: 2px solid rgba(196, 196, 196, 1);
+    text-decoration: none;
+    padding: 17px 22px 17px 28px;
+}
+.vid-odejdi{
+    margin-top: 8px;
+    font-family:"Oswald", sans-serif;
+    font-size:12px;
+    line-height:18px;
+    color: rgba(189, 189, 189, 1);
+    text-transform: uppercase;
+}
+.opisanie{
+    font-family:"Oswald", sans-serif;
+    font-size:18px;
+    line-height:26px;
+    color:black;
+}
+.count{
+    font-family:"Oswald", sans-serif;
+    font-weight:600;
+    font-size:22px;
+    line-height:32px;
+    color:black;
+    margin-top: 10px;
+}
+.count.red{
+    color:rgba(235, 87, 87, 1);
+}
+.discount{
+    font-family:"Oswald", sans-serif;
+    font-weight:600;
+    font-size:11px;
+    line-height:32px;
+    text-decoration:line-through;
+    color:rgba(130, 130, 130, 1);
+    margin-left: 4px;
+}
+/*
+Это просто часть где я решил поучиться делать градиент.
+ */
+.shoping-withouts-limits{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.shoping-withouts-limits-conteiner{
+    position:absolute;
+    width: 1878px;
+    height: 898px;
+    top:1919px;
+}
+.girl-on-blue-fone{
+    position: absolute;
+    right:0;
+}
+.shoping-withouts-limits-gradient{
+    position: absolute;
+    width:1357px;
+    height: 467px;
+    background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
+}
+.shoping-withouts-limits-text{
+    position:absolute;
+    top:96px;
+    left:269px;
+    font-family:"Oswald", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.shoping-withouts-limits-text:before{
+    content: url("data:image/svg+xml,%3Csvg width='603' height='102' viewBox='0 0 603 102' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 1H602V101.5' stroke='black' stroke-width='2'/%3E%3C/svg%3E ");
+    position: absolute;
+    left:56px;
+    bottom:-20px;
+}
+.shoping-withouts-limits-subtext{
+    position:absolute;
+    top:192px;
+    left:269px;
+    font-family:"Roboto Light", sans-serif;
+    font-size:25px;
+    line-height:37px;
+    font-weight:400;
+}
+.shop-now-shoping-withouts-limits{
+    position: absolute;
+    display: inline-block;
+    top:332px;
+    left:269px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:black;
+    line-height:26px;
+    text-transform: uppercase;
+    border:3px solid black;
+    text-decoration: none;
+    padding: 17px 52px 17px 52px;
+}

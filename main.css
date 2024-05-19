@@ -434,20 +434,56 @@ body{
     margin-inline-end: 20px;
     padding-bottom: 20px;
 }
-.checkbox-in-frame-with-products{
+
+.checkbox{
+    display: none;
+}
+.checkbox-in-frame-with-products-elements{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
     font-family:"Roboto", sans-serif;
     font-weight: 400;
     font-size:14px;
     color:rgba(63, 63, 63, 1);
     text-transform:uppercase;
+    line-height: 50px;
 }
-.checkbox-in-frame-with-products-elements{
-    padding-bottom: 14px;
+.custome-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border: 1px solid black;
 }
+.checkbox-icon{
+    box-sizing: border-box;
+    margin-bottom:3px;
+    width: 8px;
+    height: 6px;
+    border-left:2px solid white;
+    border-bottom:2px solid white;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0;
+}
+.checkbox:checked + .custome-checkbox {
+    background-color: black;
+}
+.checkbox:checked + .custome-checkbox .checkbox-icon {
+    opacity: 1;
+}
+
+
 .first-row-frame-with-products{
     grid-area: 1/3/2/4;
     display: grid;
-    grid-template: 548px / 344px 26px 344px 26px 344gitpx 26px 344px;
+    grid-template: 548px / 344px 26px 344px 26px 344px 26px 344px;
 }
 .one-first-row-frame-with-products{
     grid-area: 1/1/2/1;

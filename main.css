@@ -207,7 +207,7 @@ body{
     left:1770px;
     bottom:58px;
     background-color:black;
-
+    cursor: pointer;
 }
 
 .forward-btn{
@@ -217,6 +217,7 @@ body{
     bottom:58px;
     left:1773px;
     border:1px solid;
+    cursor: pointer;
 }
 
 .rectangle{
@@ -236,6 +237,7 @@ body{
     width: 22px;
     height: 22px;
     background-color:black;
+    cursor: pointer;
 }
 
 .frame-with-brands{
@@ -273,9 +275,11 @@ body{
     height:141px;
     margin-inline-end: 16px;
     margin-inline-start: 16px;
+    cursor: pointer;
 }
 .brands-line-element:hover{
     background-color:rgba(240, 242, 242, 1);
+    cursor: pointer;
 }
 .frame-with-discount{
     position:relative;
@@ -415,8 +419,9 @@ body{
 }
 .frame-with-products-container{
     position:absolute;
-    display: grid;
-    grid-template:548px 48px 548px 152px / 395px 30px 1485px ;
+    display:grid;
+    grid-template:548px 548px 104px / 395px 344px 344px 344px 344px;
+    gap: 48px 26px;
     width: 1878px;
     height: 1300px;
     top:2416px;
@@ -479,41 +484,43 @@ body{
     opacity: 1;
 }
 
-
-.first-row-frame-with-products{
-    grid-area: 1/3/2/4;
-    display: grid;
-    grid-template: 548px / 344px 26px 344px 26px 344px 26px 344px;
-}
 .one-first-row-frame-with-products{
-    grid-area: 1/1/2/1;
+    grid-area: 1/2/2/3;
 }
+
 .two-first-row-frame-with-products{
-    grid-area: 1/3/2/3;
+    grid-area: 1/3/2/4;
 }
+
 .three-first-row-frame-with-products{
-    grid-area: 1/5/2/5;
+    grid-area: 1/4/2/5;
 }
+
 .four-first-row-frame-with-products{
-    grid-area: 1/7/2/7;
+    grid-area: 1/5/2/6;
 }
-.second-row-frame-with-products{
-    display:grid;
-    grid-area: 3/3/3/4;
-    grid-template: 548px / 344px 26px 344px 26px 344px 26px 344px;
-}
+
 .one-second-row-frame-with-products{
-    grid-area: 1/1/2/1;
+    grid-area: 2/2/3/3;
 }
+
 .two-second-row-frame-with-products{
-    grid-area: 1/3/2/3;
+    grid-area: 2/3/3/4;
 }
+
 .three-second-row-frame-with-products{
-    grid-area: 1/5/2/5;
+    grid-area: 2/4/3/5;
 }
+
 .four-second-row-frame-with-products{
-    grid-area: 1/7/2/7;
+    grid-area: 2/5/3/6;
 }
+
+.link-in-frame-with-products{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .load-more-frame-with-products{
     grid-area: 4/1/5/3;
     position:absolute;
@@ -545,6 +552,7 @@ body{
     line-height:26px;
     color:black;
 }
+
 .count{
     font-family:"Oswald", sans-serif;
     font-weight:600;

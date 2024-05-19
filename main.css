@@ -525,7 +525,7 @@ body{
     grid-area: 4/1/5/3;
     position:absolute;
     display:inline-block;
-    width:70px;
+    width:140px;
     bottom:40px;
     left:1102px;
     font-family:"Oswald", sans-serif;
@@ -536,7 +536,9 @@ body{
     text-transform: uppercase;
     border: 2px solid rgba(196, 196, 196, 1);
     text-decoration: none;
-    padding: 17px 22px 17px 28px;
+    padding: 17px 22px 17px 22px;
+    background-color: white;
+    cursor: pointer;
 }
 .vid-odejdi{
     margin-top: 8px;

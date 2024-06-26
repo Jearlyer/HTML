@@ -15,6 +15,8 @@ body{
     width: 100%;
 }
 
+
+
 .header-crisplogo-leftside{
     display:flex;
     align-items: center;
@@ -120,7 +122,6 @@ body{
 .first-frame-container{
     position: absolute;
 }
-
 .black-dress{
     position: absolute;
     display:flex;
@@ -431,6 +432,7 @@ body{
     border-right: 1px solid rgba(196, 196, 196, 1)
 }
 .shop-some-wear{
+    grid-area: 1/1/5/2;
     font-family:"Oswald", sans-serif;
     font-weight: 400;
     font-size:24px;
@@ -443,6 +445,7 @@ body{
 .checkbox{
     display: none;
 }
+
 .checkbox-in-frame-with-products-elements{
     cursor: pointer;
     display: flex;
@@ -454,6 +457,7 @@ body{
     text-transform:uppercase;
     line-height: 50px;
 }
+
 .custome-checkbox{
     display: flex;
     align-items: center;
@@ -463,6 +467,7 @@ body{
     margin-right: 8px;
     border: 1px solid black;
 }
+
 .checkbox-icon{
     box-sizing: border-box;
     margin-bottom:3px;
@@ -477,9 +482,11 @@ body{
     transform: rotate(-45deg);
     opacity: 0;
 }
+
 .checkbox:checked + .custome-checkbox {
     background-color: black;
 }
+
 .checkbox:checked + .custome-checkbox .checkbox-icon {
     opacity: 1;
 }
@@ -639,3 +646,591 @@ body{
     text-decoration: none;
     padding: 17px 52px 17px 52px;
 }
+.koleni-mobile{
+    display: none;
+}
+.mobile-br{
+    display: none;
+}
+.shoping-withouts-limits-subtext-mobile{
+    display: none;
+}
+.catalog-on-header{
+    display: none;
+}
+.mobile-back{
+    display: none;
+}
+#fendi-2{
+    display: none;
+}
+.mobile-button-load-more{
+    display: none;
+}
+
+
+@media screen and (320px < width) and (1000px >= width){
+    .mobile-br{
+        display: flow;
+    }
+    .desctop-br{
+        display: none;
+    }
+    .header-1 {
+        display:flex;
+        justify-content: space-between;
+        background-color: black;
+        height:15.625vw;
+        width:100vw;
+    }
+    .header-crisplogo-leftside{
+        display:flex;
+        margin-top: 0.7vw;
+        margin-left:31vw;
+        padding-right: 14vw;
+        order:2;
+    }
+    .adaptiv-logo-crisp{
+        width: 20.7vw;
+    }
+    .adaptive-shoppingcardonheader{
+        width: 5.625vw;
+        height: 6.625vw;
+    }
+    .adaptive-thelupaonheader{
+        width: 5.93vw;
+        height: 5.93vw;
+    }
+    .header-text-center{
+        display:flex;
+        order:3;
+        margin-top: 1vw;
+    }
+
+    .header-text-leftsaid{
+        display:flex;
+        margin-right:4vw;
+        order:4;
+    }
+
+    .header-text-shoppingcart{
+        display: none;
+    }
+    a.textheader{
+        display:none;
+    }
+    a.heartonheader{
+        display: none;
+    }
+    .catalog-on-header{
+        display: flow;
+        margin-top: 5.5vw;
+        cursor: pointer;
+        order:1;
+    }
+    .rectangle-header{
+        display: flow;
+        box-sizing: border-box;
+        position: relative;
+        background-color:white;
+        border:0;
+        width:6.2vw;
+        height:0.9vw;
+        left:3vw;
+        margin-bottom:0.9vw;
+    }
+    /*
+    Первый фрейм
+    */
+    .first-frame{
+        display:flex;
+        justify-content: center;
+        margin:0;
+    }
+    .first-frame-container{
+        position: absolute;
+        overflow:hidden;
+        box-sizing:border-box;
+        width:100vw;
+        height:153.75vw;
+    }
+    .first-frame-container img{
+     position: absolute;
+     left:0;
+     object-fit:cover;
+     width:100vw;
+     height:153.75vw;
+    }
+    .back{
+        display: none;
+    }
+    .mobile-back{
+        display:flow;
+        width:100vw;
+        height:153.75vw;
+    }
+    .text-shop-now{
+        display: flex;
+        font-size: 4.35vw;
+        line-height: 4.5vw;
+        color: black;
+        padding: 0 9vw 0 9vw;
+        border: solid black 0.625vw;
+        text-decoration: none;
+        position: absolute;
+        left:31.1vw;
+        bottom:23.5vw;
+    }
+    .right-side-btns{
+        position: absolute;
+        display:flex
+    }
+    .left-side-buttons{
+        position: absolute;
+        display:flex
+    }
+    .reverse-color{
+        color:black;
+        -webkit-text-stroke: 0 black;
+    }
+    .text-firrst-frame{
+        position: relative;
+        top: 67vw;
+        right: -13vw;
+        font-size: 10vw;
+        line-height: 11vw;
+        text-align: center;
+    }
+    .text-firrst-frame::after {
+        display: none;
+    }
+    img.adaptive-black-dress{
+        width:38.125vw;
+        height:57vw;
+        position:relative;
+        left: 18.8vw;
+        top:15.23vw;
+    }
+    .black-dress{
+        position: absolute;
+        width: 43vw;
+        height: 64.7vw;
+        left:0;
+        top:0;
+    }
+    img.adaptive-flowers-dress{
+        width: 43vw;
+        height: 64.7vw;
+        position: relative;
+        left: 39vw;
+        top:11.375vw;
+    }
+    .flowers-dress{
+        position:absolute;
+        width: 43vw;
+        height: 64.7vw;
+        left: 0;
+        top:0;
+    }
+    .sammer-sale{
+        position:absolute;
+        left:0;
+        top:0;
+        padding:0;
+    }
+    .back-btn{
+        position:relative;
+        padding: 5.125vw 6vw 5.125vw 5vw;
+        border:1px solid;
+        left:4.4vw;
+        bottom:-135.5vw;
+        background-color:black;
+        cursor: pointer;
+    }
+    .back-btn-arrow{
+        width: 3vw;
+        height: 3vw;
+    }
+    .forward-btn{
+        position:relative;
+        padding: 5.125vw 5vw 5.125vw 6vw;
+        background-color:black;
+        bottom:-135.5vw;
+        left:66.8vw;
+        border:1px solid;
+        cursor: pointer;
+    }
+    .forward-btn-arrow{
+        width: 3vw;
+        height: 3vw;
+    }
+    .rectangle{
+        box-sizing: border-box;
+        position:relative;
+        background-color:rgba(0,0,0,0);
+        width: 4vw;
+        height: 4vw;
+        bottom:-140.5vw;
+        left:38.8vw;
+        margin-right:2vw;
+        border: 0.2vw solid #828282;
+    }
+    .rectangle:hover{
+        bottom:-140vw;
+        width: 5vw;
+        height: 5vw;
+        background-color:black;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    /*
+    Начало фрейма с брендами
+    */
+    .frane-with-brands-container{
+        position:absolute;
+        width: 91.35vw;
+        height: 85.625vw;
+        top:153.75vw;
+        display:flex;
+        justify-content: center;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    .frame-with-brands-text{
+        display: none;
+    }
+    .brands-line{
+        display: grid;
+        grid-template:17.185vw 17.185vw 17.185vw 17.185vw / 43.4375vw 43.4375vw;
+        gap:3vw 4vw;
+        position: absolute;
+        top:0;
+        padding: 0;
+        border:none;
+    }
+    #chanel{
+        grid-area:1/1/1/1 ;
+    }
+    #armani{
+        grid-area:4/2/4/3 ;
+    }
+    #burberrry{
+        grid-area:1/2/2/3 ;
+    }
+    #dior{
+        grid-area:2/1/3/2 ;
+    }
+    #fendi{
+        grid-area:4/1/4/2 ;
+    }
+    #gucci{
+        grid-area:3/1/4/2 ;
+    }
+    #versace{
+        grid-area:3/2/4/3 ;
+    }
+    #fendi-2{
+        display: flow;
+        grid-area: 2/2/3/3;
+    }
+    .adaptiv-brand{
+        width:40.1vw;
+        height:24.6vw;
+        transform:translate(4%, -17%);
+    }
+    .brands-line-element{
+        overflow:hidden;
+        box-sizing:border-box;
+        object-fit:cover;
+        width:43.4375vw;
+        height:17.185vw;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        cursor: pointer;
+        border: 0.525vw solid rgba(196, 196, 196, 1);
+    }
+    /*
+    Фрейм сос кидочками
+    */
+    .frame-with-discount-container{
+        margin-top:0;
+        display:grid;
+        grid-template: 42.8vw 88.75vw 42.8vw / 91.25vw ;
+        gap: 4vw;
+        position:absolute;
+        width: 91.35vw;
+        height: 190vw;
+        top:240.375vw;
+    }
+
+    .all-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+    }
+    .adaptiv-girl-in-hat{
+        width:91.25vw;
+        height:42.8vw;
+    }
+    .text-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        font-size:5vw;
+        line-height:6vw;
+        left:46vw;
+        top:5.6vw;
+    }
+    .subtext-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:46vw;
+        top:18.4vw;
+        font-size:3vw;
+        line-height:8vw;
+    }
+    .see-offers-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:46.3vw;
+        top:26.9vw;
+        font-size:3vw;
+        line-height:4.5vw;
+        border: 0.45vw solid black;
+        padding: 2vw 4.5vw 2vw 4.5vw;
+    }
+    .all-afro-girl{
+        grid-area: 2/1/3/2;
+    }
+    .adaptiv-afro-girl{
+        width:91.25vw;
+        height:88.75vw;
+    }
+    .text-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        font-size:8.2vw;
+        line-height:9vw;
+        left:8.4vw;
+        bottom:31vw;
+    }
+    .subtext-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:8.4vw;
+        bottom:23.1vw;
+        font-size:3vw;
+        line-height:8vw;
+    }
+    .see-offers-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:8.4vw;
+        bottom:10.3vw;
+        font-size:3vw;
+        line-height:4.5vw;
+        border: 0.45vw solid black;
+        padding: 2vw 4.5vw 2vw 4.5vw;
+    }
+    .all-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+    }
+    .adaptiv-girl-in-black-dress{
+        width:91.25vw;
+        height:42.8vw;
+    }
+    .text-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        font-size:5vw;
+        line-height:6vw;
+        left:9.4vw;
+        bottom:28.4vw;
+    }
+    .subtext-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:9.4vw;
+        bottom:21.5vw;
+        font-size:3vw;
+        line-height:8vw;
+    }
+    .see-offers-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:9.4vw;
+        bottom:8.4vw;
+        font-size:3vw;
+        line-height:4.5vw;
+        border: 0.45vw solid black;
+        padding: 2vw 4.5vw 2vw 4.5vw;
+    }
+    /*
+    Фрейм с тварами
+    */
+    .frame-with-products-container{
+        position:absolute;
+        display:grid;
+        grid-template: 7vw 81.25vw 81.25vw 81.25vw 81.25vw 15vw/ 43.75vw 43.75vw;
+        gap: 6vw 4.5vw;
+        width: 91.35vw;
+        height: 380vw;
+        top:420.375vw;
+    }
+    .check-frame-with-products{
+        grid-area: 1/1/2/3;
+        border-right:0;
+    }
+    .shop-some-wear{
+        grid-area: 1/1/2/3;
+        font-size:5.6vw;
+    }
+    .checkbox-in-frame-with-products{
+        display: none;
+    }
+    .one-first-row-frame-with-products{
+        grid-area: 2/1/3/2;
+    }
+    .two-first-row-frame-with-products{
+        grid-area: 3/1/4/2;
+    }
+    .three-first-row-frame-with-products{
+        grid-area: 4/1/5/2;
+    }
+    .four-first-row-frame-with-products{
+        grid-area: 5/1/6/2;
+    }
+    .one-second-row-frame-with-products{
+        grid-area: 2/2/3/3;
+    }
+    .two-second-row-frame-with-products{
+        grid-area: 3/2/4/3;
+    }
+    .three-second-row-frame-with-products{
+        grid-area: 4/2/5/3;
+    }
+    .four-second-row-frame-with-products{
+        grid-area: 5/2/6/3;
+    }
+    .link-in-frame-with-products{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .adaptive-pictures-in-catalog{
+        width:43.75vw ;
+        height:56.875vw ;
+    }
+    .load-more-frame-with-products{
+        display: none;
+    }
+    .mobile-button-load-more{
+        position:absolute;
+        display:inline-block;
+        font-family:"Oswald", sans-serif;
+        font-weight: 600;
+        color:rgba(63, 63, 63, 1);
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: white;
+        cursor: pointer;
+        grid-area: 6/1/7/2;
+        width: 91.35vw;
+        bottom:40px;
+        left:0;
+        margin-top:6vw;
+        font-size:4vw;
+        line-height:5.5vw;
+        border: 0.4vw solid rgba(196, 196, 196, 1);
+        padding: 2vw 4vw 2vw 4vw;
+    }
+    .vid-odejdi{
+        margin-top: 2vw;
+        font-size:3vw;
+        line-height:4.5vw;
+    }
+    .opisanie{
+        font-family:"Oswald", sans-serif;
+        font-size:3.8vw;
+        line-height:5.8vw;
+        color:black;
+    }
+    .count{
+        font-size:4.7vw;
+        line-height:6.5vw;
+        margin-top: 0;
+    }
+    .count.red{
+        color:rgba(235, 87, 87, 1);
+    }
+    .discount{
+        font-size:2.5vw;
+        line-height:3.7vw;
+        text-decoration:line-through;
+        color:rgba(130, 130, 130, 1);
+        margin-left: 4px;
+    }
+
+    /*
+    Фрейм с градиентом
+    */
+
+    .shoping-withouts-limits{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .shoping-withouts-limits-conteiner{
+        position:absolute;
+        width: 91.35vw;
+        top:799.375vw;
+        height:39.3vw;
+    }
+    .adaptiv-girl-on-blue-fone{
+        display: none;
+    }
+    .koleni-mobile{
+        display: flow;
+        height:39.3vw;
+        width: 60vw;
+     }
+    .shoping-withouts-limits-gradient{
+        position: absolute;
+        width:73.125vw;
+        height:39.3vw;
+        background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
+    }
+    .shoping-withouts-limits-text{
+        top:5.4vw;
+        left:7vw;
+        font-size: 4.5vw;
+    }
+    .shoping-withouts-limits-text:before{
+        display: none;
+    }
+    .shoping-withouts-limits-subtext-mobile{
+        display:flow;
+        top:12vw;
+        left:7vw;
+        font-size:3vw;
+        line-height:4vw;
+        font-family:"Roboto Light", sans-serif;
+        position:absolute;
+        font-weight:400;
+    }
+    .shoping-withouts-limits-subtext{
+       display: none;
+    }
+    .shop-now-shoping-withouts-limits{
+        position: absolute;
+        display: inline-block;
+        top:24.3vw;
+        left:7vw;
+        font-size:3vw;
+        line-height:4.5vw;
+        border: 0.45vw solid black;
+        padding: 2vw 4.5vw 2vw 4.5vw;
+    }
+}
+
+
+
+

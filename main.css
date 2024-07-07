@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html {
+    font-size: 62.5%;
+}
+
 body{
     font-family: "Oswald", sans-serif;
     margin:0;
-    background-color:ghostwhite;
+    background-color:white;
 }
 
 .header-1 {
@@ -14,6 +18,8 @@ body{
     height:115px;
     width: 100%;
 }
+
+
 
 .header-crisplogo-leftside{
     display:flex;
@@ -118,9 +124,8 @@ body{
 }
 
 .first-frame-container{
-    position: fixed;
+    position: absolute;
 }
-
 .black-dress{
     position: absolute;
     display:flex;
@@ -137,13 +142,13 @@ body{
 }
 
 .text-shop-now{
-    display: inline-block;
+    display: flex;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
     color: black;
     text-transform: uppercase;
-    padding: 0 42px 0 42px;
+    padding: 0 52px 0 52px;
     border: solid black 3px;
     text-decoration: none;
     position: absolute;
@@ -207,7 +212,7 @@ body{
     left:1770px;
     bottom:58px;
     background-color:black;
-
+    cursor: pointer;
 }
 
 .forward-btn{
@@ -217,6 +222,7 @@ body{
     bottom:58px;
     left:1773px;
     border:1px solid;
+    cursor: pointer;
 }
 
 .rectangle{
@@ -236,6 +242,1594 @@ body{
     width: 22px;
     height: 22px;
     background-color:black;
+    cursor: pointer;
 }
 
+.frame-with-brands{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.frane-with-brands-container{
+    position:absolute;
+    width: 1878px;
+    height: 221px;
+    top:800px;
+    display:flex;
+    justify-content: center;
+}
+.frame-with-brands-text{
+    position:absolute;
+    font-size: 24px ;
+    text-transform: uppercase;
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.brands-line{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:22px;
+    padding: 28px 0 29px;
+    border:1px solid #C4C4C4;
+}
+.brands-line-element{
+    width:235px;
+    height:141px;
+    margin-inline-end: 16px;
+    margin-inline-start: 16px;
+    cursor: pointer;
+}
+.brands-line-element:hover{
+    background-color:rgba(240, 242, 242, 1);
+    cursor: pointer;
+}
+.frame-with-discount{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.frame-with-discount-container{
+    margin-top:30px;
+    display:grid;
+    grid-template:434px 30px 434px / 924px 30px 924px;
+    position:absolute;
+    width: 1878px;
+    height: 898px;
+    top:1021px;
+}
 
+.all-girl-in-a-hat{
+    grid-area: 1/1/2/2;
+}
+
+.text-girl-in-a-hat{
+    position:absolute;
+    font-size:48px;
+    line-height:62px;
+    left:490px;
+    top:82px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.subtext-girl-in-a-hat{
+    position:absolute;
+    left:490px;
+    top:213px;
+    font-family:"Roboto Light", sans-serif;
+    font-size:22px;
+    line-height:37px;
+}
+
+.see-offers-girl-in-a-hat{
+    position:absolute;
+    left:490px;
+    top:295px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:black;
+    line-height:26px;
+    text-transform: uppercase;
+    border:3px solid black;
+    text-decoration: none;
+    padding: 17px 52px 17px 52px;
+}
+
+.all-afro-girl{
+    grid-area: 1/3/4/4;
+}
+.text-afro-girl{
+    position:absolute;
+    font-size:96px;
+    line-height:110px;
+    right:482px;
+    bottom:248px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.subtext-afro-girl{
+    position:absolute;
+    left:1040px;
+    bottom:210px;
+    font-family:"Roboto Light", sans-serif;
+    font-size:25px;
+    line-height:37px;
+}
+.see-offers-afro-girl{
+    position:absolute;
+    left:1040px;
+    bottom:103px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:black;
+    line-height:26px;
+    text-transform: uppercase;
+    border:3px solid black;
+    text-decoration: none;
+    padding: 17px 52px 17px 52px;
+}
+
+.all-girl-in-black-dress{
+    grid-area: 3/1/4/2;
+}
+
+.text-girl-in-black-dress{
+    position:absolute;
+    font-size:48px;
+    line-height:62px;
+    left:94px;
+    bottom:257px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.subtext-girl-in-black-dress{
+    position:absolute;
+    left:94px;
+    bottom:221px;
+    font-family:"Roboto Light", sans-serif;
+    font-size:22px;
+    line-height:37px;
+}
+.see-offers-girl-in-black-dress{
+    position:absolute;
+    left:94px;
+    bottom:115px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:black;
+    line-height:26px;
+    text-transform: uppercase;
+    border:3px solid black;
+    text-decoration: none;
+    padding: 17px 52px 17px 52px;
+}
+
+.frame-with-products{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.frame-with-products-container{
+    position:absolute;
+    display:grid;
+    grid-template:548px 548px 104px / 395px 344px 344px 344px 344px;
+    gap: 48px 26px;
+    width: 1878px;
+    height: 1300px;
+    top:2416px;
+}
+.check-frame-with-products{
+    grid-area: 1/1/5/2;
+    border-right: 1px solid rgba(196, 196, 196, 1)
+}
+.shop-some-wear{
+    grid-area: 1/1/5/2;
+    font-family:"Oswald", sans-serif;
+    font-weight: 400;
+    font-size:24px;
+    color:rgba(130, 130, 130, 1);
+    color: black;
+    margin-inline-end: 20px;
+    padding-bottom: 20px;
+}
+
+.checkbox{
+    display: none;
+}
+
+.checkbox-in-frame-with-products-elements{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-size:14px;
+    color:rgba(63, 63, 63, 1);
+    text-transform:uppercase;
+    line-height: 50px;
+}
+
+.custome-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border: 1px solid black;
+}
+
+.checkbox-icon{
+    box-sizing: border-box;
+    margin-bottom:3px;
+    width: 8px;
+    height: 6px;
+    border-left:2px solid white;
+    border-bottom:2px solid white;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0;
+}
+
+.checkbox:checked + .custome-checkbox {
+    background-color: black;
+}
+
+.checkbox:checked + .custome-checkbox .checkbox-icon {
+    opacity: 1;
+}
+
+.one-first-row-frame-with-products{
+    grid-area: 1/2/2/3;
+}
+
+.two-first-row-frame-with-products{
+    grid-area: 1/3/2/4;
+}
+
+.three-first-row-frame-with-products{
+    grid-area: 1/4/2/5;
+}
+
+.four-first-row-frame-with-products{
+    grid-area: 1/5/2/6;
+}
+
+.one-second-row-frame-with-products{
+    grid-area: 2/2/3/3;
+}
+
+.two-second-row-frame-with-products{
+    grid-area: 2/3/3/4;
+}
+
+.three-second-row-frame-with-products{
+    grid-area: 2/4/3/5;
+}
+
+.four-second-row-frame-with-products{
+    grid-area: 2/5/3/6;
+}
+
+.link-in-frame-with-products{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.load-more-frame-with-products{
+    grid-area: 4/1/5/3;
+    position:absolute;
+    display:inline-block;
+    width:140px;
+    bottom:40px;
+    left:1102px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    color:rgba(130, 130, 130, 1);
+    line-height:21px;
+    text-transform: uppercase;
+    border: 2px solid rgba(196, 196, 196, 1);
+    text-decoration: none;
+    padding: 17px 22px 17px 22px;
+    background-color: white;
+    cursor: pointer;
+}
+.vid-odejdi{
+    margin-top: 8px;
+    font-family:"Oswald", sans-serif;
+    font-size:12px;
+    line-height:18px;
+    color: rgba(189, 189, 189, 1);
+    text-transform: uppercase;
+}
+.opisanie{
+    font-family:"Oswald", sans-serif;
+    font-size:18px;
+    line-height:26px;
+    color:black;
+}
+
+.count{
+    font-family:"Oswald", sans-serif;
+    font-weight:600;
+    font-size:22px;
+    line-height:32px;
+    color:black;
+    margin-top: 10px;
+}
+.count.red{
+    color:rgba(235, 87, 87, 1);
+}
+.discount{
+    font-family:"Oswald", sans-serif;
+    font-weight:600;
+    font-size:11px;
+    line-height:32px;
+    text-decoration:line-through;
+    color:rgba(130, 130, 130, 1);
+    margin-left: 4px;
+}
+/*
+Это просто часть где я решил поучиться делать градиент.
+ */
+.shoping-withouts-limits{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.shoping-withouts-limits-conteiner{
+    position:absolute;
+    width: 1878px;
+    height: 898px;
+    top:1919px;
+}
+.girl-on-blue-fone{
+    position: absolute;
+    right:0;
+}
+.shoping-withouts-limits-gradient{
+    position: absolute;
+    width:1357px;
+    height: 467px;
+    background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
+}
+.shoping-withouts-limits-text{
+    position:absolute;
+    top:96px;
+    left:269px;
+    font-family:"Oswald", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.shoping-withouts-limits-text:before{
+    content: url("data:image/svg+xml,%3Csvg width='603' height='102' viewBox='0 0 603 102' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 1H602V101.5' stroke='black' stroke-width='2'/%3E%3C/svg%3E ");
+    position: absolute;
+    left:56px;
+    bottom:-20px;
+}
+.shoping-withouts-limits-subtext{
+    position:absolute;
+    top:192px;
+    left:269px;
+    font-family:"Roboto Light", sans-serif;
+    font-size:25px;
+    line-height:37px;
+    font-weight:400;
+}
+.shop-now-shoping-withouts-limits{
+    position: absolute;
+    display: inline-block;
+    top:332px;
+    left:269px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:black;
+    line-height:26px;
+    text-transform: uppercase;
+    border:3px solid black;
+    text-decoration: none;
+    padding: 17px 52px 17px 52px;
+}
+.koleni-mobile{
+    display: none;
+}
+.mobile-br{
+    display: none;
+}
+.shoping-withouts-limits-subtext-mobile{
+    display: none;
+}
+.catalog-on-header{
+    display: none;
+}
+.mobile-back{
+    display: none;
+}
+#fendi-2{
+    display: none;
+}
+.mobile-button-load-more{
+    display: none;
+}
+
+@media (width:320px){
+    .mobile-br{
+        display: flow;
+    }
+    .desctop-br{
+        display: none;
+    }
+    .header-1 {
+        display:flex;
+        justify-content: space-between;
+        background-color: black;
+        height:50px;
+        width:100vw;
+    }
+    .header-crisplogo-leftside{
+        display:flex;
+        margin-top: 5px;
+        margin-left:86px;
+        padding-right: 23px;
+        order:2;
+    }
+    .adaptiv-logo-crisp{
+        width: 67px;
+        height: 30px;
+    }
+    .adaptive-shoppingcardonheader{
+        width: 18px;
+        height: 22px;
+    }
+    .adaptive-thelupaonheader{
+        width: 19px;
+        height: 19px;
+    }
+    .header-text-center{
+        display:flex;
+        order:3;
+        margin-top: 3px;
+    }
+
+    .header-text-leftsaid{
+        display:flex;
+        margin-right:12px;
+        order:4;
+    }
+
+    .header-text-shoppingcart{
+        display: none;
+    }
+    a.textheader{
+        display:none;
+    }
+    a.heartonheader{
+        display: none;
+    }
+    .catalog-on-header{
+        display: flow;
+        margin-top: 18px;
+        cursor: pointer;
+        order:1;
+    }
+    .rectangle-header{
+        display: flow;
+        box-sizing: border-box;
+        position: relative;
+        background-color:white;
+        border:0;
+        width:20px;
+        height:3px;
+        left:14px;
+        margin-bottom:3px;
+    }
+    /*
+    Первый фрейм
+    */
+    .first-frame{
+        display:flex;
+        justify-content: center;
+        margin:0;
+    }
+    .first-frame-container{
+        position: absolute;
+        overflow:hidden;
+        box-sizing:border-box;
+        width:100%;
+        height:492px;
+    }
+    .first-frame-container img{
+        position: absolute;
+        left:0;
+        object-fit:cover;
+        width:100%;
+        height:492px;
+    }
+    .back{
+        display: none;
+    }
+    .mobile-back{
+        display:flow;
+        width:100%;
+        height:492px;
+    }
+    .text-shop-now{
+        display: flex;
+        font-size: 1.4rem;
+        line-height:1.2rem;
+        color: black;
+        padding: 0 27px 0 26px;
+        border: solid black 3px;
+        text-decoration: none;
+        position: absolute;
+        left:102px;
+        bottom:72px;
+    }
+    .right-side-btns{
+        position: absolute;
+        display:flex
+    }
+    .left-side-buttons{
+        position: absolute;
+        display:flex
+    }
+    .reverse-color{
+        color:black;
+        -webkit-text-stroke: 0 black;
+    }
+    .text-firrst-frame{
+        position: relative;
+        top: 214px;
+        right: -42px;
+        font-size: 3.2rem;
+        line-height: 3.5rem;
+        text-align: center;
+    }
+    .text-firrst-frame::after {
+        display: none;
+    }
+    img.adaptive-black-dress{
+        width:122px;
+        height:182px;
+        position:relative;
+        left:57px;
+        top:50px;
+    }
+    .black-dress{
+        position: absolute;
+        width:122px;
+        height:182px;
+        left:0;
+        top:0;
+    }
+    img.adaptive-flowers-dress{
+        width: 137px;
+        height: 207px;
+        position: relative;
+        left: 125px;
+        top:38px;
+    }
+    .flowers-dress{
+        position:absolute;
+        width: 137px;
+        height: 207px;
+        left: 0;
+        top:0;
+    }
+    .sammer-sale{
+        position:absolute;
+        left:0;
+        top:0;
+        padding:0;
+    }
+    .back-btn{
+        position:relative;
+        padding: 13px 16px 10px 14px;
+        border:1px solid;
+        left:14px;
+        bottom:-440px;
+        background-color:black;
+        cursor: pointer;
+    }
+
+    .back-btn-arrow{
+        width: 11px;
+        height: 11px;
+    }
+
+    .forward-btn{
+        position:relative;
+        padding: 13px 14px 10px 16px;
+        background-color:black;
+        bottom:-440px;
+        left:222px;
+        border:1px solid;
+        cursor: pointer;
+    }
+    .forward-btn-arrow{
+        width: 11px;
+        height: 11px;
+    }
+    .rectangle{
+        box-sizing:border-box;
+        position:relative;
+        background-color:rgba(0,0,0,0);
+        width: 16px;
+        height: 16px;
+        bottom:-452px;
+        left:119px;
+        margin-right:7px;
+        border: 1px solid #828282;
+    }
+    .rectangle:hover{
+        bottom:-450px;
+        width: 20px;
+        height: 20px;
+        margin-right:6px;
+        background-color:black;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    /*
+    Начало фрейма с брендами
+    */
+    .frane-with-brands-container{
+        position:absolute;
+        width: 91.35%;
+        height: 274px;
+        top:492px;
+        display:flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .frame-with-brands-text{
+        display: none;
+    }
+    .brands-line{
+        display: grid;
+        grid-template:55px 55px 55px 55px / 139px 139px;
+        gap:10px 14px;
+        position: absolute;
+        top:0;
+        padding: 0;
+        border:none;
+    }
+    #chanel{
+        grid-area:1/1/1/1 ;
+    }
+    #armani{
+        grid-area:4/2/4/3 ;
+    }
+    #burberrry{
+        grid-area:1/2/2/3 ;
+    }
+    #dior{
+        grid-area:2/1/3/2 ;
+    }
+    #fendi{
+        grid-area:4/1/4/2 ;
+    }
+    #gucci{
+        grid-area:3/1/4/2 ;
+    }
+    #versace{
+        grid-area:3/2/4/3 ;
+    }
+    #fendi-2{
+        display: flow;
+        grid-area: 2/2/3/3;
+    }
+    .adaptiv-brand{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+    .brands-line-element{
+        overflow:hidden;
+        box-sizing:border-box;
+        object-fit:cover;
+        width:100%;
+        height:100%;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        cursor: pointer;
+        border: 2px solid rgba(196, 196, 196, 1);
+    }
+    /*
+    Фрейм сос кидочками
+    */
+    .frame-with-discount-container{
+        margin-top:0;
+        display:grid;
+        grid-template: 137px 284px 137px / 91.25% ;
+        gap: 12px;
+        position:absolute;
+        width: 91.25%;
+        height: 681px;
+        top:766px;
+        box-sizing:border-box;
+    }
+    .all-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        box-sizing:border-box;
+        object-fit: cover;
+    }
+    .adaptiv-girl-in-hat{
+        width:110%;
+        height:137px;
+    }
+    .text-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        font-size:1.6rem;
+        line-height:1.9rem;
+        left:146px;
+        top:18px;
+    }
+    .subtext-girl-in-a-hat{
+        display: block;
+        width: 144px;
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:146px;
+        top:59px;
+        font-size:1rem;
+        line-height:2rem;
+    }
+    .see-offers-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:147px;
+        top:86px;
+        font-size:1rem;
+        line-height:1.4rem;
+        border: 2px solid black;
+        padding: 7px 18px 7px 18px;
+    }
+    .all-afro-girl{
+        grid-area: 2/1/3/2;
+        box-sizing:border-box;
+        object-fit: cover;
+    }
+    .adaptiv-afro-girl{
+        width:110%;
+        height:284px;
+    }
+    .text-afro-girl{
+        display: block;
+        width: 97px;
+        grid-area: 2/1/3/2;
+        position:absolute;
+        font-size:2.6rem;
+        line-height:2.9rem;
+        left:27px;
+        bottom:99px;
+    }
+    .subtext-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:27px;
+        bottom:74px;
+        font-size:1rem;
+        line-height:2rem;
+    }
+    .see-offers-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:27px;
+        bottom:34px;
+        font-size:1rem;
+        line-height:1.4rem;
+        border: 2px solid black;
+        padding: 7px 19px 7px 19px;
+    }
+    .all-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        box-sizing:border-box;
+        object-fit: cover;
+    }
+    .adaptiv-girl-in-black-dress{
+        width:110%;
+        height:137px;
+    }
+    .text-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        font-size:1.6rem;
+        line-height:1.9rem;
+        left:31px;
+        bottom:91px;
+    }
+    .subtext-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:31px;
+        bottom:69px;
+        font-size:1rem;
+        line-height:2rem;
+    }
+    .see-offers-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:31px;
+        bottom:27px;
+        font-size:1rem;
+        line-height:1.4rem;
+        border: 2px solid black;
+        padding: 7px 18px 7px 18px;
+    }
+    /*
+    Фрейм с тварами
+    */
+    .frame-with-products-container{
+        position:absolute;
+        display:grid;
+        grid-template: 22px 260px 260px 260px 260px 35px/ 139px 139px;
+        gap: 18px 14px;
+        width: 91.35%;
+        height:1190px;
+        top:1302px;
+        box-sizing:border-box;
+        overflow:hidden;
+    }
+    .check-frame-with-products{
+        grid-area: 1/1/2/3;
+        border-right:0;
+    }
+    .shop-some-wear{
+        grid-area: 1/1/2/3;
+        font-size:1.8rem;
+    }
+    .checkbox-in-frame-with-products{
+        display: none;
+    }
+    .one-first-row-frame-with-products{
+        grid-area: 2/1/3/2;
+    }
+    .two-first-row-frame-with-products{
+        grid-area: 3/1/4/2;
+    }
+    .three-first-row-frame-with-products{
+        grid-area: 4/1/5/2;
+    }
+    .four-first-row-frame-with-products{
+        grid-area: 5/1/6/2;
+    }
+    .one-second-row-frame-with-products{
+        grid-area: 2/2/3/3;
+    }
+    .two-second-row-frame-with-products{
+        grid-area: 3/2/4/3;
+    }
+    .three-second-row-frame-with-products{
+        grid-area: 4/2/5/3;
+    }
+    .four-second-row-frame-with-products{
+        grid-area: 5/2/6/3;
+    }
+    .link-in-frame-with-products{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .adaptive-pictures-in-catalog{
+        width:100%;
+        height:182px;
+        object-fit:cover;
+    }
+    .load-more-frame-with-products{
+        display: none;
+    }
+    .mobile-button-load-more{
+        position:absolute;
+        display:inline-block;
+        font-family:"Oswald", sans-serif;
+        font-weight: 600;
+        color:rgba(63, 63, 63, 1);
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: white;
+        cursor: pointer;
+        grid-area: 6/1/7/2;
+        width: 210%;
+        bottom:0;
+        left:0;
+        margin-top:0;
+        font-size:1.2rem;
+        line-height:1.8rem;
+        border: 2px solid rgba(196, 196, 196, 1);
+        padding: 6px 0 6px 0;
+    }
+    .vid-odejdi{
+        margin-top: 2px;
+        font-size:1rem;
+        line-height:1.5rem;
+    }
+    .opisanie{
+        font-family:"Oswald", sans-serif;
+        font-size:1.2rem;
+        line-height:1.8rem;
+        color:black;
+    }
+    .count{
+        font-size:1.4rem;
+        line-height:2.1rem;
+        margin-top: 0;
+    }
+    .count.red{
+        color:rgba(235, 87, 87, 1);
+    }
+    .discount{
+        font-size:0.8rem;
+        line-height:1.2rem;
+        text-decoration:line-through;
+        color:rgba(130, 130, 130, 1);
+        margin-left: 4px;
+    }
+
+    /*
+    Фрейм с градиентом
+    */
+
+    .shoping-withouts-limits{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .shoping-withouts-limits-conteiner{
+        position:absolute;
+        width: 91.35%;
+        top:2505px;
+        height:126px;
+    }
+    .adaptiv-girl-on-blue-fone{
+        display: none;
+    }
+    .koleni-mobile{
+        display:flow;
+        height:126px;
+        width:100%;
+    }
+    .shoping-withouts-limits-gradient{
+        position:absolute;
+        width:80%;
+        height:126px;
+        background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
+    }
+    .shoping-withouts-limits-text{
+        top:17px;
+        left:23px;
+        font-size: 1.4rem;
+    }
+    .shoping-withouts-limits-text:before{
+        display: none;
+    }
+    .shoping-withouts-limits-subtext-mobile{
+        display:flow;
+        top:39px;
+        left:23px;
+        font-size:1rem;
+        line-height:1.4rem;
+        font-family:"Roboto Light", sans-serif;
+        position:absolute;
+        font-weight:400;
+    }
+    .shoping-withouts-limits-subtext{
+        display: none;
+    }
+    .shop-now-shoping-withouts-limits{
+        position: absolute;
+        display: inline-block;
+        top:78px;
+        left:23px;
+        font-size:1rem;
+        line-height:1.5rem;
+        border: 2px solid black;
+        padding: 7px 19px 7px 19px;
+    }
+}
+@media (width:768px){
+    .mobile-br{
+        display: flow;
+    }
+    .desctop-br{
+        display: none;
+    }
+    .header-1 {
+        display:flex;
+        justify-content: space-between;
+        background-color: black;
+        height:100px;
+        width:100vw;
+    }
+    .header-crisplogo-leftside{
+        display:flex;
+        margin-top: 5px;
+        margin-left:256px;
+        padding-right: 153px;
+        order:2;
+    }
+    .adaptiv-logo-crisp{
+        width: 134px;
+        height: 60px;
+    }
+    .adaptive-shoppingcardonheader{
+        width:36px;
+        height:44px;
+    }
+    .adaptive-thelupaonheader{
+        width:38px;
+        height:38px;
+    }
+    .header-text-center{
+        display:flex;
+        order:3;
+        margin-top: 3px;
+    }
+
+    .header-text-leftsaid{
+        display:flex;
+        margin-right:32px;
+        order:4;
+    }
+
+    .header-text-shoppingcart{
+        display: none;
+    }
+    a.textheader{
+        display:none;
+    }
+    a.heartonheader{
+        display: none;
+    }
+    .catalog-on-header{
+        display: flow;
+        margin-top: 34px;
+        cursor: pointer;
+        order:1;
+    }
+    .rectangle-header{
+        display: flow;
+        box-sizing: border-box;
+        position: relative;
+        background-color:white;
+        border:0;
+        width:40px;
+        height:6px;
+        left:34px;
+        margin-bottom:6px;
+    }
+    /*
+    Первый фрейм
+    */
+
+    .first-frame{
+        display:flex;
+        justify-content: center;
+        margin:0;
+    }
+    .first-frame-container{
+        position: absolute;
+        overflow:hidden;
+        box-sizing:border-box;
+        width:100%;
+        height:924px;
+    }
+    .first-frame-container img{
+        position: absolute;
+        left:0;
+        object-fit:cover;
+        width:100%;
+        height:924px;
+    }
+    .back{
+        display: none;
+    }
+    .mobile-back{
+        display:flow;
+        width:100%;
+        height:924px;
+    }
+    .text-shop-now{
+        display: flex;
+        font-size: 2.4rem;
+        line-height:2.2rem;
+        color: black;
+        padding: 0 57px 0 56px;
+        border: solid black 3px;
+        text-decoration: none;
+        position: absolute;
+        left:273px;
+        bottom:142px;
+    }
+    .right-side-btns{
+        position: absolute;
+        display:flex
+    }
+    .left-side-buttons{
+        position: absolute;
+        display:flex
+    }
+    .reverse-color{
+        color:black;
+        -webkit-text-stroke: 0 black;
+    }
+    .text-firrst-frame{
+        position: relative;
+        top: 434px;
+        right: -172px;
+        font-size: 5.5rem;
+        line-height: 5.8rem;
+        text-align: center;
+    }
+    .text-firrst-frame::after {
+        display: none;
+    }
+    img.adaptive-black-dress{
+        width:244px;
+        height:364px;
+        position:relative;
+        left:177px;
+        top:90px;
+    }
+    .black-dress{
+        position: absolute;
+        width:244px;
+        height:364px;
+        left:0;
+        top:0;
+    }
+    img.adaptive-flowers-dress{
+        width: 274px;
+        height: 414px;
+        position: relative;
+        left: 310px;
+        top:68px;
+    }
+    .flowers-dress{
+        position:absolute;
+        width: 274px;
+        height: 414px;
+        left: 0;
+        top:0;
+    }
+    .sammer-sale{
+        position:absolute;
+        left:0;
+        top:0;
+        padding:0;
+    }
+    .back-btn{
+        position:relative;
+        padding: 23px 26px 20px 24px;
+        border:1px solid;
+        left:610px;
+        bottom:-835px;
+        background-color:black;
+        cursor: pointer;
+    }
+
+    .back-btn-arrow{
+        width: 17px;
+        height: 17px;
+    }
+
+    .forward-btn{
+        position:relative;
+        padding: 23px 24px 20px 26px;
+        background-color:black;
+        bottom:-835px;
+        left:620px;
+        border:1px solid;
+        cursor: pointer;
+    }
+    .forward-btn-arrow{
+        width: 17px;
+        height: 17px;
+    }
+    .rectangle{
+        box-sizing:border-box;
+        position:relative;
+        background-color:rgba(0,0,0,0);
+        width: 26px;
+        height: 26px;
+        bottom:-860px;
+        left:50px;
+        margin-right:11px;
+        border: 1px solid #828282;
+    }
+    .rectangle:hover{
+        bottom:-859px;
+        width: 28px;
+        height: 28px;
+        margin-right:10px;
+        background-color:black;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    /*
+    Начало фрейма с брендами
+    */
+
+    .frane-with-brands-container{
+        position:absolute;
+        width: 91.35%;
+        height: 374px;
+        top:939px;
+        display:flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .frame-with-brands-text{
+        display: none;
+    }
+    .brands-line{
+        display: grid;
+        grid-template:110px 110px 110px / 220px 220px 220px;
+        gap:20px 28px;
+        position: absolute;
+        top:0;
+        padding: 0;
+        border:none;
+    }
+    #chanel{
+        grid-area:1/1/2/2 ;
+    }
+    #armani{
+        grid-area:2/1/2/2 ;
+    }
+    #burberrry{
+        grid-area:3/3/3/4 ;
+    }
+    #dior{
+        grid-area:1/2/2/3 ;
+    }
+    #fendi{
+        grid-area:2/2/3/3 ;
+        display: none;
+    }
+    #gucci{
+        grid-area:3/2/4/3 ;
+    }
+    #versace{
+        grid-area:1/3/2/4 ;
+        display: none;
+    }
+    #fendi-2{
+        display: flow;
+        grid-area: 2/3/3/4;
+    }
+    .adaptiv-brand{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+    .brands-line-element{
+        overflow:hidden;
+        box-sizing:border-box;
+        object-fit:cover;
+        width:100%;
+        height:100%;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        cursor: pointer;
+        border: 3px solid rgba(196, 196, 196, 1);
+    }
+    /*
+    Фрейм сос кидочками
+    */
+
+    .frame-with-discount-container{
+        margin-top:0;
+        display:grid;
+        grid-template: 274px 274px 274px / 100% ;
+        gap: 22px;
+        position:absolute;
+        width: 93.25%;
+        height: 866px;
+        top:1344px;
+        box-sizing:border-box;
+    }
+    .all-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        box-sizing:border-box;
+        object-fit: cover;
+        overflow:hidden;
+    }
+    .adaptiv-girl-in-hat{
+        width:100%;
+        height:274px;
+    }
+    .text-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        font-size:4.6rem;
+        line-height:4.9rem;
+        left:386px;
+        top:28px;
+    }
+    .subtext-girl-in-a-hat{
+        display: block;
+        width: 244px;
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:386px;
+        top:135px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+    .see-offers-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:386px;
+        top:183px;
+        font-size:2rem;
+        line-height:2.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    .all-afro-girl{
+        grid-area: 2/1/3/2;
+        box-sizing:border-box;
+        object-fit:cover;
+        overflow:hidden;
+    }
+    .adaptiv-afro-girl{
+        width:120%;
+        height:120%;
+    }
+    .text-afro-girl{
+        display: block;
+        width: 197px;
+        grid-area: 2/1/3/2;
+        position:absolute;
+        font-size:4.6rem;
+        line-height:4.9rem;
+        left:37px;
+        bottom:149px;
+    }
+    .subtext-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:37px;
+        bottom:114px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+    .see-offers-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:37px;
+        bottom:34px;
+        font-size:2rem;
+        line-height:2.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    .all-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        box-sizing:border-box;
+        object-fit: cover;
+        overflow:hidden;
+    }
+    .adaptiv-girl-in-black-dress{
+        width:100%;
+        height:274px;
+    }
+    .text-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        font-size:4.6rem;
+        line-height:4.9rem;
+        left:37px;
+        bottom:169px;
+    }
+    .subtext-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:37px;
+        bottom:134px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+    .see-offers-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:37px;
+        bottom:34px;
+        font-size:2rem;
+        line-height:2.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    /*
+    Фрейм с тварами
+    */
+    .frame-with-products-container{
+        position:absolute;
+        display:grid;
+        grid-template: 520px 520px 520px 520px 75px/ 224px 224px 224px;
+        gap: 22px 22px;
+        width: 92.35%;
+        height:2250px;
+        top:2180px;
+        box-sizing:border-box;
+        overflow:hidden;
+    }
+    .check-frame-with-products{
+        grid-area: 1/1/5/1;
+        border-right:1px solid rgba(196, 196, 196, 1);
+    }
+    .shop-some-wear{
+        grid-area: 1/1/5/1;
+        font-size:2.8rem;
+    }
+    .one-first-row-frame-with-products{
+        grid-area: 1/2/2/3;
+    }
+    .two-first-row-frame-with-products{
+        grid-area: 2/2/3/3;
+    }
+    .three-first-row-frame-with-products{
+        grid-area: 3/2/4/2;
+    }
+    .four-first-row-frame-with-products{
+        grid-area: 4/2/5/3;
+    }
+    .one-second-row-frame-with-products{
+        grid-area: 1/3/2/4;
+    }
+    .two-second-row-frame-with-products{
+        grid-area: 2/3/3/4;
+    }
+    .three-second-row-frame-with-products{
+        grid-area: 3/3/4/4;
+    }
+    .four-second-row-frame-with-products{
+        grid-area: 4/3/5/4;
+    }
+    .link-in-frame-with-products{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .adaptive-pictures-in-catalog{
+        width:100%;
+        height:364px;
+        object-fit:cover;
+    }
+    .load-more-frame-with-products{
+        display: none;
+    }
+    .mobile-button-load-more{
+        position:absolute;
+        display:inline-block;
+        font-family:"Oswald", sans-serif;
+        font-weight: 600;
+        color:rgba(63, 63, 63, 1);
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: white;
+        cursor: pointer;
+        grid-area: 5/2/6/3;
+        width: 100%;
+        bottom:0;
+        left:0;
+        margin-top:0;
+        font-size:2.2rem;
+        line-height:2.8rem;
+        border: 3px solid rgba(196, 196, 196, 1);
+        padding: 16px 0 16px 0;
+    }
+    .vid-odejdi{
+        margin-top: 2px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+    .opisanie{
+        font-family:"Oswald", sans-serif;
+        font-size:2.4rem;
+        line-height:3.6rem;
+        color:black;
+    }
+    .count{
+        font-size:2.8rem;
+        line-height:4.1rem;
+        margin-top: 0;
+    }
+    .count.red{
+        color:rgba(235, 87, 87, 1);
+    }
+    .discount{
+        font-size:1.5rem;
+        line-height:2.4rem;
+        text-decoration:line-through;
+        color:rgba(130, 130, 130, 1);
+        margin-left: 4px;
+    }
+
+    /*
+    Фрейм с градиентом
+    */
+
+    .shoping-withouts-limits{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .shoping-withouts-limits-conteiner{
+        position:absolute;
+        width: 92.35%;
+        top:4450px;
+        height:126px;
+    }
+    .adaptiv-girl-on-blue-fone{
+        display: none;
+    }
+    .koleni-mobile{
+        display:flow;
+        height:252px;
+        width:100%;
+    }
+    .shoping-withouts-limits-gradient{
+        position:absolute;
+        width:80%;
+        height:252px;
+        background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
+    }
+    .shoping-withouts-limits-text{
+        top:27px;
+        left:33px;
+        font-size: 3.8rem;
+    }
+    .shoping-withouts-limits-text:before{
+        display: none;
+    }
+    .shoping-withouts-limits-subtext-mobile{
+        display:flow;
+        top:85px;
+        left:33px;
+        font-size:2rem;
+        line-height:2.8rem;
+        font-family:"Roboto Light", sans-serif;
+        position:absolute;
+        font-weight:400;
+    }
+    .shoping-withouts-limits-subtext{
+        display: none;
+    }
+    .shop-now-shoping-withouts-limits{
+        position: absolute;
+        display: inline-block;
+        top:158px;
+        left:33px;
+        font-size:2rem;
+        line-height:2.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+}

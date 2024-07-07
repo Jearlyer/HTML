@@ -672,7 +672,7 @@ body{
     display: none;
 }
 
-@media (width:320px){
+@media (max-width:320px){
     .mobile-br{
         display: flow;
     }
@@ -1250,7 +1250,7 @@ body{
         padding: 7px 19px 7px 19px;
     }
 }
-@media (width:768px){
+@media (max-width:768px){
     .mobile-br{
         display: flow;
     }

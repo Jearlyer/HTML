@@ -672,7 +672,1793 @@ body{
     display: none;
 }
 
-@media (768px > width > 320px){
+@media (max-width:1900px){
+    .mobile-br{
+        display: none;
+    }
+    .desctop-br{
+        display: flow;
+    }
+    .header-1 {
+        display:flex;
+        justify-content:space-between;
+        background-color: black;
+        height:85px;
+        width: 100%;
+    }
+
+
+
+    .header-crisplogo-leftside{
+        display:flex;
+        align-items: center;
+    }
+
+    .header-text-center{
+        display:flex;
+        align-items: center;
+    }
+
+    .header-text-leftsaid{
+        display:flex;
+        align-items: center;
+    }
+
+    .header-text-shoppingcart{
+        display:flex;
+        align-items:flex-start;
+        flex-direction:column;
+        align-content: center;
+    }
+
+    .textheader{
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+    }
+
+    .shoppingcarttext12{
+        font-family: "Roboto-Medium", sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: white;
+        text-decoration: none;
+        margin-left: 11px;
+        margin-right:12px;
+    }
+
+    .shoppingcarttext14{
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 15px;
+        color: white;
+        text-decoration: none;
+        margin-left: 11px;
+        margin-right:12px;
+    }
+
+    .thelupaonheader{
+        margin-top: 3px;
+        margin-inside: 8px;
+        margin-left: 14px;
+    }
+
+    .heartonheader{
+        margin-top: 6px;
+        margin-right: 18px;
+        margin-left: 20px;
+    }
+
+    .center{
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .center:hover{
+        border-bottom: solid orangered 2px;
+    }
+
+    .leftside{
+        margin-left:20px;
+    }
+
+    .rightside{
+        margin-right:12px;
+    }
+
+    .shoppingcardonheader{
+        margin-top: 3px;
+    }
+
+    .shoppingcarttext {
+        margin-right: 30px
+    }
+    /*
+    Первый фрейм
+    */
+
+    .first-frame{
+        display:flex;
+        justify-content: center;
+        margin:0;
+    }
+    .first-frame-container{
+        position: absolute;
+        overflow:hidden;
+        box-sizing:border-box;
+        width:1024px;
+        height:768px;
+    }
+    .first-frame-container img{
+        position: absolute;
+        left:0;
+        object-fit:cover;
+        width:1024px;
+        height:768px;
+    }
+    .back{
+        display: none;
+    }
+    .mobile-back{
+        display:flow;
+        width:100%;
+        height:768px;
+    }
+    .text-shop-now{
+        display: flex;
+        font-size: 2rem;
+        line-height:2rem;
+        color: black;
+        padding: 0 57px 0 56px;
+        border: solid black 3px;
+        text-decoration: none;
+        position: absolute;
+        left:80px;
+        bottom:222px;
+    }
+    .right-side-btns{
+        position: absolute;
+        display:flex
+    }
+    .left-side-buttons{
+        position: absolute;
+        display:flex
+    }
+
+    .text-firrst-frame{
+        position: relative;
+        top: 174px;
+        right: -80px;
+        font-size: 6.5rem;
+        line-height: 6.8rem;
+        text-align: left;
+    }
+    .text-firrst-frame::after {
+        display: none;
+    }
+    img.adaptive-black-dress{
+        width:244px;
+        height:364px;
+        position:relative;
+        left:517px;
+        top:140px;
+    }
+    .black-dress{
+        position: absolute;
+        width:244px;
+        height:364px;
+        left:0;
+        top:0;
+    }
+    img.adaptive-flowers-dress{
+        width: 274px;
+        height: 414px;
+        position: relative;
+        left: 650px;
+        top:118px;
+    }
+    .flowers-dress{
+        position:absolute;
+        width: 274px;
+        height: 414px;
+        left: 0;
+        top:0;
+    }
+    .sammer-sale{
+        position:absolute;
+        left:0;
+        top:0;
+        padding:0;
+    }
+    .back-btn{
+        position:relative;
+        padding: 23px 26px 20px 24px;
+        border:1px solid;
+        left:870px;
+        bottom:-685px;
+        background-color:black;
+        cursor: pointer;
+    }
+
+    .back-btn-arrow{
+        width: 17px;
+        height: 17px;
+    }
+
+    .forward-btn{
+        position:relative;
+        padding: 23px 24px 20px 26px;
+        background-color:black;
+        bottom:-685px;
+        left:880px;
+        border:1px solid;
+        cursor: pointer;
+    }
+    .forward-btn-arrow{
+        width: 17px;
+        height: 17px;
+    }
+    .rectangle{
+        box-sizing:border-box;
+        position:relative;
+        background-color:rgba(0,0,0,0);
+        width: 26px;
+        height: 26px;
+        bottom:-705px;
+        left:50px;
+        margin-right:11px;
+        border: 1px solid #828282;
+    }
+    .rectangle:hover{
+        bottom:-704px;
+        width: 28px;
+        height: 28px;
+        margin-right:10px;
+        background-color:black;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    /*
+    Начало фрейма с брендами
+    */
+
+    .frane-with-brands-container{
+        position:absolute;
+        width: 768px;
+        height: 374px;
+        top:788px;
+        display:flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .frame-with-brands-text{
+        display: none;
+    }
+    .brands-line{
+        display: grid;
+        grid-template: 160px 160px / 300px 300px 300px;
+        gap:28px 20px;
+        position: absolute;
+        top:0;
+        padding: 0;
+        border:none;
+    }
+    #chanel{
+        grid-area:1/1/2/2 ;
+    }
+    #armani{
+        grid-area:1/2/2/3 ;
+    }
+    #burberrry{
+        grid-area:1/3/2/4 ;
+    }
+    #dior{
+        grid-area:2/1/2/2 ;
+    }
+    #fendi{
+        grid-area:2/2/3/3 ;
+        display: none;
+    }
+    #gucci{
+        grid-area:2/2/3/3 ;
+    }
+    #versace{
+        grid-area:1/3/2/4 ;
+        display: none;
+    }
+    #fendi-2{
+        display: flow;
+        grid-area: 2/3/3/4;
+    }
+    .adaptiv-brand{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+    .brands-line-element{
+        overflow:hidden;
+        box-sizing:border-box;
+        object-fit:cover;
+        width:100%;
+        height:100%;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        cursor: pointer;
+        border: 3px solid rgba(196, 196, 196, 1);
+    }
+    /*
+    Фрейм сос кидочками
+    */
+
+    .frame-with-discount-container{
+        margin-top:0;
+        display:grid;
+        grid-template: 374px 374px 374px / 1024px;
+        gap: 28px;
+        position:absolute;
+        width: 1024px;
+        height: 866px;
+        top:1180px;
+        box-sizing:border-box;
+    }
+    .all-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        box-sizing:border-box;
+        object-fit: cover;
+        overflow:hidden;
+    }
+    .adaptiv-girl-in-hat{
+        width:100%;
+        height:374px;
+    }
+    .text-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        font-size:5.6rem;
+        line-height:5.9rem;
+        left:682px;
+        top:28px;
+    }
+    .subtext-girl-in-a-hat{
+        display: block;
+        width: 244px;
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:686px;
+        top:154px;
+        font-size:3rem;
+        line-height:4rem;
+    }
+    .see-offers-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:686px;
+        top:263px;
+        font-size:3rem;
+        line-height:3.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    .all-afro-girl{
+        grid-area: 2/1/3/2;
+        box-sizing:border-box;
+        object-fit:cover;
+        overflow:hidden;
+    }
+    .adaptiv-afro-girl{
+        width:110%;
+        height:110%;
+    }
+    .text-afro-girl{
+        display: block;
+        width: 297px;
+        grid-area: 2/1/3/2;
+        position:absolute;
+        font-size:5.6rem;
+        line-height:5.9rem;
+        left:37px;
+        bottom:219px;
+    }
+    .subtext-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:37px;
+        bottom:164px;
+        font-size:3rem;
+        line-height:4rem;
+    }
+    .see-offers-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:37px;
+        bottom:34px;
+        font-size:3rem;
+        line-height:3.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    .all-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        box-sizing:border-box;
+        object-fit: cover;
+        overflow:hidden;
+    }
+    .adaptiv-girl-in-black-dress{
+        width:100%;
+        height:374px;
+    }
+    .text-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        font-size:5.6rem;
+        line-height:5.9rem;
+        left:37px;
+        bottom:239px;
+    }
+    .subtext-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:37px;
+        bottom:184px;
+        font-size:3rem;
+        line-height:4rem;
+    }
+    .see-offers-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:37px;
+        bottom:34px;
+        font-size:3rem;
+        line-height:3.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    /*
+    Фрейм с тварами
+    */
+    .frame-with-products-container{
+        position:absolute;
+        display:grid;
+        grid-template: 42px 500px 500px 85px/ 310px 310px 310px;
+        gap: 28px 34px;
+        width: 1024px;
+        height:2190px;
+        top:2322px;
+        box-sizing:border-box;
+        overflow:hidden;
+    }
+    .check-frame-with-products{
+        grid-area: 1/1/2/4;
+        border-right:0;
+    }
+    .shop-some-wear{
+        grid-area: 1/1/2/4;
+        font-size:3.8rem;
+    }
+    .checkbox-in-frame-with-products{
+        display: none;
+    }
+
+    .two-first-row-frame-with-products{
+        grid-area: 2/2/3/3;
+    }
+    .three-first-row-frame-with-products{
+        grid-area: 2/3/3/4;
+    }
+    .four-first-row-frame-with-products{
+        grid-area: 3/1/4/2;
+    }
+    .one-second-row-frame-with-products{
+        grid-area: 3/2/4/3;
+    }
+    .two-second-row-frame-with-products{
+        grid-area: 3/3/4/4;
+    }
+
+    .four-second-row-frame-with-products{
+        grid-area: 2/1/3/2;
+
+    }
+    .link-in-frame-with-products{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .adaptive-pictures-in-catalog{
+        width:100%;
+        height:400px;
+        object-fit:cover;
+    }
+    .load-more-frame-with-products{
+        display: none;
+    }
+    .mobile-button-load-more{
+        position:absolute;
+        display:inline-block;
+        font-family:"Oswald", sans-serif;
+        font-weight: 600;
+        color:rgba(63, 63, 63, 1);
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: white;
+        cursor: pointer;
+        grid-area: 4/1/5/4;
+        width: 100%;
+        bottom:0;
+        left:0;
+        margin-top:0;
+        font-size:2.2rem;
+        line-height:2.8rem;
+        border: 2px solid rgba(196, 196, 196, 1);
+        padding: 16px 0 16px 0;
+    }
+    .vid-odejdi{
+        margin-top: 2px;
+        font-size:2rem;
+        line-height:2.5rem;
+    }
+    .opisanie{
+        font-family:"Oswald", sans-serif;
+        font-size:2.2rem;
+        line-height:2.8rem;
+        color:black;
+    }
+    .count{
+        font-size:2.4rem;
+        line-height:3.7rem;
+        margin-top: 0;
+    }
+    .count.red{
+        color:rgba(235, 87, 87, 1);
+    }
+    .discount{
+        font-size:1.8rem;
+        line-height:2.2rem;
+        text-decoration:line-through;
+        color:rgba(130, 130, 130, 1);
+        margin-left: 4px;
+    }
+
+    /*
+    Фрейм с градиентом
+    */
+
+    .shoping-withouts-limits{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .shoping-withouts-limits-conteiner{
+        position:absolute;
+        width: 1024px;
+        top:3570px;
+        height:366px;
+    }
+    .adaptiv-girl-on-blue-fone{
+        display: none;
+    }
+    .koleni-mobile{
+        display:flow;
+        height:352px;
+        width:100%;
+    }
+    .shoping-withouts-limits-gradient{
+        position:absolute;
+        width:80%;
+        height:352px;
+        background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
+    }
+    .shoping-withouts-limits-text{
+        top:27px;
+        left:33px;
+        font-size: 4.8rem;
+    }
+    .shoping-withouts-limits-text:before{
+        display: none;
+    }
+    .shoping-withouts-limits-subtext-mobile{
+        display:flow;
+        top:105px;
+        left:33px;
+        font-size:3rem;
+        line-height:3.8rem;
+        font-family:"Roboto Light", sans-serif;
+        position:absolute;
+        font-weight:400;
+    }
+    .shoping-withouts-limits-subtext{
+        display: none;
+    }
+    .shop-now-shoping-withouts-limits{
+        position: absolute;
+        display: inline-block;
+        top:228px;
+        left:33px;
+        font-size:3rem;
+        line-height:3.8rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+}
+@media (max-width:1023px){
+    .mobile-br{
+        display: flow;
+    }
+    .desctop-br{
+        display: none;
+    }
+    .header-1 {
+        display:flex;
+        justify-content: space-between;
+        background-color: black;
+        height:100px;
+        width:100vw;
+    }
+    .header-crisplogo-leftside{
+        display:flex;
+        margin-top: 5px;
+        margin-left:256px;
+        padding-right: 153px;
+        order:2;
+    }
+    .adaptiv-logo-crisp{
+        width: 134px;
+        height: 60px;
+    }
+    .adaptive-shoppingcardonheader{
+        width:36px;
+        height:44px;
+    }
+    .adaptive-thelupaonheader{
+        width:38px;
+        height:38px;
+    }
+    .header-text-center{
+        display:flex;
+        order:3;
+        margin-top: 3px;
+    }
+
+    .header-text-leftsaid{
+        display:flex;
+        margin-right:32px;
+        order:4;
+    }
+
+    .header-text-shoppingcart{
+        display: none;
+    }
+    a.textheader{
+        display:none;
+    }
+    a.heartonheader{
+        display: none;
+    }
+    .catalog-on-header{
+        display: flow;
+        margin-top: 34px;
+        cursor: pointer;
+        order:1;
+    }
+    .rectangle-header{
+        display: flow;
+        box-sizing: border-box;
+        position: relative;
+        background-color:white;
+        border:0;
+        width:40px;
+        height:6px;
+        left:34px;
+        margin-bottom:6px;
+    }
+    /*
+    Первый фрейм
+    */
+
+    .first-frame{
+        display:flex;
+        justify-content: center;
+        margin:0;
+    }
+    .first-frame-container{
+        position: absolute;
+        overflow:hidden;
+        box-sizing:border-box;
+        width:768px;
+        height:924px;
+    }
+    .first-frame-container img{
+        position: absolute;
+        left:0;
+        object-fit:cover;
+        width:768px;
+        height:924px;
+    }
+    .back{
+        display: none;
+    }
+    .mobile-back{
+        display:flow;
+        width:100%;
+        height:924px;
+    }
+    .text-shop-now{
+        display: flex;
+        font-size: 2.4rem;
+        line-height:2.2rem;
+        color: black;
+        padding: 0 57px 0 56px;
+        border: solid black 3px;
+        text-decoration: none;
+        position: absolute;
+        left:273px;
+        bottom:142px;
+    }
+    .right-side-btns{
+        position: absolute;
+        display:flex
+    }
+    .left-side-buttons{
+        position: absolute;
+        display:flex
+    }
+    .reverse-color{
+        color:black;
+        -webkit-text-stroke: 0 black;
+    }
+    .text-firrst-frame{
+        position: relative;
+        top: 434px;
+        right: -172px;
+        font-size: 5.5rem;
+        line-height: 5.8rem;
+        text-align: center;
+    }
+    .text-firrst-frame::after {
+        display: none;
+    }
+    img.adaptive-black-dress{
+        width:244px;
+        height:364px;
+        position:relative;
+        left:177px;
+        top:90px;
+    }
+    .black-dress{
+        position: absolute;
+        width:244px;
+        height:364px;
+        left:0;
+        top:0;
+    }
+    img.adaptive-flowers-dress{
+        width: 274px;
+        height: 414px;
+        position: relative;
+        left: 310px;
+        top:68px;
+    }
+    .flowers-dress{
+        position:absolute;
+        width: 274px;
+        height: 414px;
+        left: 0;
+        top:0;
+    }
+    .sammer-sale{
+        position:absolute;
+        left:0;
+        top:0;
+        padding:0;
+    }
+    .back-btn{
+        position:relative;
+        padding: 23px 26px 20px 24px;
+        border:1px solid;
+        left:610px;
+        bottom:-835px;
+        background-color:black;
+        cursor: pointer;
+    }
+
+    .back-btn-arrow{
+        width: 17px;
+        height: 17px;
+    }
+
+    .forward-btn{
+        position:relative;
+        padding: 23px 24px 20px 26px;
+        background-color:black;
+        bottom:-835px;
+        left:620px;
+        border:1px solid;
+        cursor: pointer;
+    }
+    .forward-btn-arrow{
+        width: 17px;
+        height: 17px;
+    }
+    .rectangle{
+        box-sizing:border-box;
+        position:relative;
+        background-color:rgba(0,0,0,0);
+        width: 26px;
+        height: 26px;
+        bottom:-860px;
+        left:50px;
+        margin-right:11px;
+        border: 1px solid #828282;
+    }
+    .rectangle:hover{
+        bottom:-859px;
+        width: 28px;
+        height: 28px;
+        margin-right:10px;
+        background-color:black;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    /*
+    Начало фрейма с брендами
+    */
+
+    .frane-with-brands-container{
+        position:absolute;
+        width: 768px;
+        height: 374px;
+        top:939px;
+        display:flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .frame-with-brands-text{
+        display: none;
+    }
+    .brands-line{
+        display: grid;
+        grid-template:110px 110px 110px / 220px 220px 220px;
+        gap:20px 28px;
+        position: absolute;
+        top:0;
+        padding: 0;
+        border:none;
+    }
+    #chanel{
+        grid-area:1/1/2/2 ;
+    }
+    #armani{
+        grid-area:2/1/2/2 ;
+    }
+    #burberrry{
+        grid-area:3/3/3/4 ;
+    }
+    #dior{
+        grid-area:1/2/2/3 ;
+    }
+    #fendi{
+        grid-area:2/2/3/3 ;
+        display: none;
+    }
+    #gucci{
+        grid-area:3/2/4/3 ;
+    }
+    #versace{
+        grid-area:1/3/2/4 ;
+        display: none;
+    }
+    #fendi-2{
+        display: flow;
+        grid-area: 2/3/3/4;
+    }
+    .adaptiv-brand{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+    .brands-line-element{
+        overflow:hidden;
+        box-sizing:border-box;
+        object-fit:cover;
+        width:100%;
+        height:100%;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        cursor: pointer;
+        border: 3px solid rgba(196, 196, 196, 1);
+    }
+    /*
+    Фрейм сос кидочками
+    */
+
+    .frame-with-discount-container{
+        margin-top:0;
+        display:grid;
+        grid-template: 274px 274px 274px / 768px;
+        gap: 22px;
+        position:absolute;
+        width: 768px;
+        height: 866px;
+        top:1344px;
+        box-sizing:border-box;
+    }
+    .all-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        box-sizing:border-box;
+        object-fit: cover;
+        overflow:hidden;
+    }
+    .adaptiv-girl-in-hat{
+        width:100%;
+        height:274px;
+    }
+    .text-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        font-size:4.6rem;
+        line-height:4.9rem;
+        left:386px;
+        top:28px;
+    }
+    .subtext-girl-in-a-hat{
+        display: block;
+        width: 244px;
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:386px;
+        top:135px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+    .see-offers-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:386px;
+        top:183px;
+        font-size:2rem;
+        line-height:2.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    .all-afro-girl{
+        grid-area: 2/1/3/2;
+        box-sizing:border-box;
+        object-fit:cover;
+        overflow:hidden;
+    }
+    .adaptiv-afro-girl{
+        width:120%;
+        height:120%;
+    }
+    .text-afro-girl{
+        display: block;
+        width: 197px;
+        grid-area: 2/1/3/2;
+        position:absolute;
+        font-size:4.6rem;
+        line-height:4.9rem;
+        left:37px;
+        bottom:149px;
+    }
+    .subtext-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:37px;
+        bottom:114px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+    .see-offers-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:37px;
+        bottom:34px;
+        font-size:2rem;
+        line-height:2.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    .all-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        box-sizing:border-box;
+        object-fit: cover;
+        overflow:hidden;
+    }
+    .adaptiv-girl-in-black-dress{
+        width:100%;
+        height:274px;
+    }
+    .text-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        font-size:4.6rem;
+        line-height:4.9rem;
+        left:37px;
+        bottom:169px;
+    }
+    .subtext-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:37px;
+        bottom:134px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+    .see-offers-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:37px;
+        bottom:34px;
+        font-size:2rem;
+        line-height:2.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+    /*
+    Фрейм с тварами
+    */
+    .frame-with-products-container{
+        position:absolute;
+        display:grid;
+        grid-template: 520px 520px 520px 520px 75px/ 242px 242px 242px;
+        gap: 22px 22px;
+        width: 768px;
+        height:2250px;
+        top:2180px;
+        box-sizing:border-box;
+        overflow:hidden;
+    }
+    .check-frame-with-products{
+        grid-area: 1/1/5/1;
+        border-right:1px solid rgba(196, 196, 196, 1);
+
+    }
+    .shop-some-wear{
+        grid-area: 1/1/5/1;
+        font-size:2.8rem;
+    }
+    .one-first-row-frame-with-products{
+        grid-area: 1/2/2/3;
+    }
+    .two-first-row-frame-with-products{
+        grid-area: 2/2/3/3;
+    }
+    .three-first-row-frame-with-products{
+        grid-area: 3/2/4/2;
+    }
+    .four-first-row-frame-with-products{
+        grid-area: 4/2/5/3;
+    }
+    .one-second-row-frame-with-products{
+        grid-area: 1/3/2/4;
+    }
+    .two-second-row-frame-with-products{
+        grid-area: 2/3/3/4;
+    }
+    .three-second-row-frame-with-products{
+        grid-area: 3/3/4/4;
+    }
+    .four-second-row-frame-with-products{
+        grid-area: 4/3/5/4;
+    }
+    .link-in-frame-with-products{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .adaptive-pictures-in-catalog{
+        width:100%;
+        height:364px;
+        object-fit:cover;
+    }
+    .checkbox-in-frame-with-products{
+        display: flow;
+    }
+    .load-more-frame-with-products{
+        display: none;
+    }
+    .mobile-button-load-more{
+        position:absolute;
+        display:inline-block;
+        font-family:"Oswald", sans-serif;
+        font-weight: 600;
+        color:rgba(63, 63, 63, 1);
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: white;
+        cursor: pointer;
+        grid-area: 5/2/6/3;
+        width: 100%;
+        bottom:0;
+        left:0;
+        margin-top:0;
+        font-size:2.2rem;
+        line-height:2.8rem;
+        border: 3px solid rgba(196, 196, 196, 1);
+        padding: 16px 0 16px 0;
+    }
+    .vid-odejdi{
+        margin-top: 2px;
+        font-size:2rem;
+        line-height:3rem;
+    }
+    .opisanie{
+        font-family:"Oswald", sans-serif;
+        font-size:2.4rem;
+        line-height:3.6rem;
+        color:black;
+    }
+    .count{
+        font-size:2.8rem;
+        line-height:4.1rem;
+        margin-top: 0;
+    }
+    .count.red{
+        color:rgba(235, 87, 87, 1);
+    }
+    .discount{
+        font-size:1.5rem;
+        line-height:2.4rem;
+        text-decoration:line-through;
+        color:rgba(130, 130, 130, 1);
+        margin-left: 4px;
+    }
+
+    /*
+    Фрейм с градиентом
+    */
+
+    .shoping-withouts-limits{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .shoping-withouts-limits-conteiner{
+        position:absolute;
+        width: 768px;
+        top:4450px;
+        height:126px;
+    }
+    .adaptiv-girl-on-blue-fone{
+        display: none;
+    }
+    .koleni-mobile{
+        display:flow;
+        height:252px;
+        width:100%;
+    }
+    .shoping-withouts-limits-gradient{
+        position:absolute;
+        width:80%;
+        height:252px;
+        background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
+    }
+    .shoping-withouts-limits-text{
+        top:27px;
+        left:33px;
+        font-size: 3.8rem;
+    }
+    .shoping-withouts-limits-text:before{
+        display: none;
+    }
+    .shoping-withouts-limits-subtext-mobile{
+        display:flow;
+        top:85px;
+        left:33px;
+        font-size:2rem;
+        line-height:2.8rem;
+        font-family:"Roboto Light", sans-serif;
+        position:absolute;
+        font-weight:400;
+    }
+    .shoping-withouts-limits-subtext{
+        display: none;
+    }
+    .shop-now-shoping-withouts-limits{
+        position: absolute;
+        display: inline-block;
+        top:158px;
+        left:33px;
+        font-size:2rem;
+        line-height:2.4rem;
+        border: 3px solid black;
+        padding: 17px 39px 17px 39px;
+    }
+}
+@media (max-width:767px){
+    .mobile-br{
+        display: flow;
+    }
+    .desctop-br{
+        display: none;
+    }
+    .header-1 {
+        display:flex;
+        justify-content: space-between;
+        background-color: black;
+        height:70px;
+        width:100vw;
+    }
+    .header-crisplogo-leftside{
+        display:flex;
+        margin-top: 5px;
+        margin-left:186px;
+        padding-right: 57px;
+        order:2;
+    }
+    .adaptiv-logo-crisp{
+        width: 84px;
+        height: 43px;
+    }
+    .adaptive-shoppingcardonheader{
+        width: 23px;
+        height: 27px;
+    }
+    .adaptive-thelupaonheader{
+        width: 23px;
+        height: 23px;
+    }
+    .header-text-center{
+        display:flex;
+        order:3;
+        margin-top: 3px;
+    }
+
+    .header-text-leftsaid{
+        display:flex;
+        margin-right:12px;
+        order:4;
+    }
+
+    .header-text-shoppingcart{
+        display: none;
+    }
+    a.textheader{
+        display:none;
+    }
+    a.heartonheader{
+        display: none;
+    }
+    .catalog-on-header{
+        display: flow;
+        margin-top: 23px;
+        cursor: pointer;
+        order:1;
+    }
+    .rectangle-header{
+        display: flow;
+        box-sizing: border-box;
+        position: relative;
+        background-color:white;
+        border:0;
+        width:25px;
+        height:4px;
+        left:24px;
+        margin-bottom:4px;
+    }
+    /*
+    Первый фрейм
+    */
+    .first-frame{
+        display:flex;
+        justify-content: center;
+        margin:0;
+    }
+    .first-frame-container{
+        position: absolute;
+        overflow:hidden;
+        box-sizing:border-box;
+        width:450px;
+        height:692px;
+    }
+    .first-frame-container img{
+        position: absolute;
+        left:0;
+        object-fit:cover;
+        width:100%;
+        height:692px;
+    }
+    .back{
+        display: none;
+    }
+    .mobile-back{
+        display:flow;
+        width:100%;
+        height:692px;
+    }
+    .text-shop-now{
+        display: flex;
+        font-size: 1.8rem;
+        line-height:1.5rem;
+        color: black;
+        padding: 0 27px 0 26px;
+        border: solid black 3px;
+        text-decoration: none;
+        position: absolute;
+        left:152px;
+        bottom:82px;
+    }
+    .right-side-btns{
+        position: absolute;
+        display:flex
+    }
+    .left-side-buttons{
+        position: absolute;
+        display:flex
+    }
+    .reverse-color{
+        color:black;
+        -webkit-text-stroke: 0 black;
+    }
+    .text-firrst-frame{
+        position: relative;
+        top: 344px;
+        right: -72px;
+        font-size: 4.2rem;
+        line-height: 4.5rem;
+        text-align: center;
+    }
+    .text-firrst-frame::after {
+        display: none;
+    }
+    img.adaptive-black-dress{
+        width:200px;
+        height:300px;
+        position:relative;
+        left:67px;
+        top:70px;
+    }
+    .black-dress{
+        position: absolute;
+        width:200px;
+        height:300px;
+        left:0;
+        top:0;
+    }
+    img.adaptive-flowers-dress{
+        width: 230px;
+        height: 330px;
+        position: relative;
+        left: 175px;
+        top:58px;
+    }
+    .flowers-dress{
+        position:absolute;
+        width: 230px;
+        height: 330px;
+        left: 0;
+        top:0;
+    }
+    .sammer-sale{
+        position:absolute;
+        left:0;
+        top:0;
+        padding:0;
+    }
+    .back-btn{
+        position:relative;
+        padding: 13px 16px 10px 14px;
+        border:1px solid;
+        left:14px;
+        bottom:-640px;
+        background-color:black;
+        cursor: pointer;
+    }
+
+    .back-btn-arrow{
+        width: 11px;
+        height: 11px;
+    }
+
+    .forward-btn{
+        position:relative;
+        padding: 13px 14px 10px 16px;
+        background-color:black;
+        bottom:-640px;
+        left:352px;
+        border:1px solid;
+        cursor: pointer;
+    }
+    .forward-btn-arrow{
+        width: 11px;
+        height: 11px;
+    }
+    .rectangle{
+        box-sizing:border-box;
+        position:relative;
+        background-color:rgba(0,0,0,0);
+        width: 16px;
+        height: 16px;
+        bottom:-650px;
+        left:177px;
+        margin-right:7px;
+        border: 1px solid #828282;
+    }
+    .rectangle:hover{
+        bottom:-649px;
+        width: 20px;
+        height: 20px;
+        margin-right:6px;
+        background-color:black;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    /*
+    Начало фрейма с брендами
+    */
+    .frane-with-brands-container{
+        position:absolute;
+        width: 450px;
+        height: 460px;
+        top:705px;
+        display:flex;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .frame-with-brands-text{
+        display: none;
+    }
+    .brands-line{
+        display: grid;
+        grid-template:100px 100px 100px 100px / 210px 210px;
+        gap:20px 24px;
+        position: absolute;
+        top:0;
+        padding: 0;
+        border:none;
+    }
+    #chanel{
+        grid-area:1/1/1/1 ;
+    }
+    #armani{
+        grid-area:4/2/4/3 ;
+    }
+    #burberrry{
+        grid-area:1/2/2/3 ;
+    }
+    #dior{
+        grid-area:2/1/3/2 ;
+    }
+    #fendi{
+        grid-area:4/1/4/2 ;
+    }
+    #gucci{
+        grid-area:3/1/4/2 ;
+    }
+    #versace{
+        grid-area:3/2/4/3 ;
+    }
+    #fendi-2{
+        display: flow;
+        grid-area: 2/2/3/3;
+    }
+    .adaptiv-brand{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+    .brands-line-element{
+        overflow:hidden;
+        box-sizing:border-box;
+        object-fit:cover;
+        width:100%;
+        height:100%;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        cursor: pointer;
+        border: 2px solid rgba(196, 196, 196, 1);
+    }
+    /*
+    Фрейм сос кидочками
+    */
+    .frame-with-discount-container{
+        margin-top:0;
+        display:grid;
+        grid-template: 192px 397px 192px / 450px ;
+        gap: 22px;
+        position:absolute;
+        width: 450px;
+        height: 881px;
+        top:1200px;
+        box-sizing:border-box;
+    }
+    .all-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        box-sizing:border-box;
+        object-fit: cover;
+    }
+    .adaptiv-girl-in-hat{
+        width:110%;
+        height:192px;
+    }
+    .text-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        font-size:2.6rem;
+        line-height:2.9rem;
+        left:246px;
+        top:18px;
+    }
+    .subtext-girl-in-a-hat{
+        display: block;
+        width: 144px;
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:246px;
+        top:79px;
+        font-size:1.5rem;
+        line-height:2rem;
+    }
+    .see-offers-girl-in-a-hat{
+        grid-area: 1/1/2/2;
+        position:absolute;
+        left:246px;
+        top:136px;
+        font-size:1.5rem;
+        line-height:2rem;
+        border: 2px solid black;
+        padding: 7px 18px 7px 18px;
+    }
+    .all-afro-girl{
+        grid-area: 2/1/3/2;
+        box-sizing:border-box;
+        object-fit: cover;
+    }
+    .adaptiv-afro-girl{
+        width:110%;
+        height:397px;
+    }
+    .text-afro-girl{
+        display: block;
+        width: 197px;
+        grid-area: 2/1/3/2;
+        position:absolute;
+        font-size:3.6rem;
+        line-height:3.9rem;
+        left:27px;
+        bottom:105px;
+    }
+    .subtext-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:27px;
+        bottom:74px;
+        font-size:1.5rem;
+        line-height:2.4rem;
+    }
+    .see-offers-afro-girl{
+        grid-area: 2/1/3/2;
+        position:absolute;
+        left:27px;
+        bottom:24px;
+        font-size:1.5rem;
+        line-height:2rem;
+        border: 2px solid black;
+        padding: 7px 19px 7px 19px;
+    }
+    .all-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        box-sizing:border-box;
+        object-fit: cover;
+    }
+    .adaptiv-girl-in-black-dress{
+        width:110%;
+        height:192px;
+    }
+    .text-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        font-size:2.6rem;
+        line-height:2.9rem;
+        left:31px;
+        bottom:111px;
+    }
+    .subtext-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:31px;
+        bottom:83px;
+        font-size:1.5rem;
+        line-height:2rem;
+    }
+    .see-offers-girl-in-black-dress{
+        grid-area: 3/1/4/2;
+        position:absolute;
+        left:31px;
+        bottom:27px;
+        font-size:1.5rem;
+        line-height:2rem;
+        border: 2px solid black;
+        padding: 7px 18px 7px 18px;
+    }
+    /*
+    Фрейм с тварами
+    */
+    .frame-with-products-container{
+        position:absolute;
+        display:grid;
+        grid-template: 38px 400px 400px 400px 400px 40px/ 215px 215px;
+        gap: 20px 20px;
+        width: 450px;
+        height:2000px;
+        top:1980px;
+        box-sizing:border-box;
+        overflow:hidden;
+    }
+    .check-frame-with-products{
+        grid-area: 1/1/2/3;
+        border-right:0;
+    }
+    .shop-some-wear{
+        grid-area: 1/1/2/3;
+        font-size:2.4rem;
+    }
+    .checkbox-in-frame-with-products{
+        display: none;
+    }
+    .one-first-row-frame-with-products{
+        grid-area: 2/1/3/2;
+    }
+    .two-first-row-frame-with-products{
+        grid-area: 3/1/4/2;
+    }
+    .three-first-row-frame-with-products{
+        grid-area: 4/1/5/2;
+    }
+    .four-first-row-frame-with-products{
+        grid-area: 5/1/6/2;
+    }
+    .one-second-row-frame-with-products{
+        grid-area: 2/2/3/3;
+    }
+    .two-second-row-frame-with-products{
+        grid-area: 3/2/4/3;
+    }
+    .three-second-row-frame-with-products{
+        grid-area: 4/2/5/3;
+    }
+    .four-second-row-frame-with-products{
+        grid-area: 5/2/6/3;
+    }
+    .link-in-frame-with-products{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .adaptive-pictures-in-catalog{
+        width:100%;
+        height:282px;
+        object-fit:cover;
+    }
+    .load-more-frame-with-products{
+        display: none;
+    }
+    .mobile-button-load-more{
+        position:absolute;
+        display:inline-block;
+        font-family:"Oswald", sans-serif;
+        font-weight: 600;
+        color:rgba(63, 63, 63, 1);
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: white;
+        cursor: pointer;
+        grid-area: 6/1/7/2;
+        width: 210%;
+        bottom:0;
+        left:0;
+        margin-top:0;
+        font-size:1.7rem;
+        line-height:2.8rem;
+        border: 2px solid rgba(196, 196, 196, 1);
+        padding: 6px 0 6px 0;
+    }
+    .vid-odejdi{
+        margin-top: 2px;
+        font-size:2rem;
+        line-height:2.5rem;
+    }
+    .opisanie{
+        font-family:"Oswald", sans-serif;
+        font-size:2.2rem;
+        line-height:2.8rem;
+        color:black;
+    }
+    .count{
+        font-size:1.8rem;
+        line-height:2.6rem;
+        margin-top: 0;
+    }
+    .count.red{
+        color:rgba(235, 87, 87, 1);
+    }
+    .discount{
+        font-size:1.4rem;
+        line-height:1.8rem;
+        text-decoration:line-through;
+        color:rgba(130, 130, 130, 1);
+        margin-left: 4px;
+    }
+
+    /*
+    Фрейм с градиентом
+    */
+
+    .shoping-withouts-limits{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .shoping-withouts-limits-conteiner{
+        position:absolute;
+        width:450px;
+        top:3780px;
+        height:170px;
+    }
+    .adaptiv-girl-on-blue-fone{
+        display: none;
+    }
+    .koleni-mobile{
+        display:flow;
+        height:170px;
+        width:100%;
+    }
+    .shoping-withouts-limits-gradient{
+        position:absolute;
+        width:80%;
+        height:170px;
+        background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
+    }
+    .shoping-withouts-limits-text{
+        top:17px;
+        left:23px;
+        font-size: 2.4rem;
+    }
+    .shoping-withouts-limits-text:before{
+        display: none;
+    }
+    .shoping-withouts-limits-subtext-mobile{
+        display:flow;
+        top:55px;
+        left:23px;
+        font-size:1.5rem;
+        line-height:1.9rem;
+        font-family:"Roboto Light", sans-serif;
+        position:absolute;
+        font-weight:400;
+    }
+    .shoping-withouts-limits-subtext{
+        display: none;
+    }
+    .shop-now-shoping-withouts-limits{
+        position: absolute;
+        display: inline-block;
+        top:118px;
+        left:23px;
+        font-size:1.5rem;
+        line-height:2rem;
+        border: 2px solid black;
+        padding: 7px 19px 7px 19px;
+    }
+}
+@media (max-width:500px){
     .mobile-br{
         display: flow;
     }
@@ -755,7 +2541,7 @@ body{
         position: absolute;
         overflow:hidden;
         box-sizing:border-box;
-        width:100%;
+        width:320px;
         height:492px;
     }
     .first-frame-container img{
@@ -963,10 +2749,10 @@ body{
     .frame-with-discount-container{
         margin-top:0;
         display:grid;
-        grid-template: 137px 284px 137px / 91.25% ;
+        grid-template: 137px 284px 137px / 320px ;
         gap: 12px;
         position:absolute;
-        width: 91.25%;
+        width: 320px;
         height: 681px;
         top:766px;
         box-sizing:border-box;
@@ -1086,9 +2872,9 @@ body{
     .frame-with-products-container{
         position:absolute;
         display:grid;
-        grid-template: 22px 260px 260px 260px 260px 35px/ 139px 139px;
+        grid-template: 22px 260px 260px 260px 260px 35px/ 151px 151px;
         gap: 18px 14px;
-        width: 91.35%;
+        width: 320px;
         height:1190px;
         top:1302px;
         box-sizing:border-box;
@@ -1200,7 +2986,7 @@ body{
     }
     .shoping-withouts-limits-conteiner{
         position:absolute;
-        width: 91.35%;
+        width:320px;
         top:2505px;
         height:126px;
     }
@@ -1250,7 +3036,7 @@ body{
         padding: 7px 19px 7px 19px;
     }
 }
-@media (min-width:768px){
+@media (max-width:320px){
     .mobile-br{
         display: flow;
     }
@@ -1261,37 +3047,37 @@ body{
         display:flex;
         justify-content: space-between;
         background-color: black;
-        height:100px;
+        height:15.625vw;
         width:100vw;
     }
     .header-crisplogo-leftside{
         display:flex;
-        margin-top: 5px;
-        margin-left:256px;
-        padding-right: 153px;
+        margin-top: 2vw;
+        margin-left:27vw;
+        padding-right: 7vw;
         order:2;
     }
     .adaptiv-logo-crisp{
-        width: 134px;
-        height: 60px;
+        width: 21vw;
+        height: 9vw;
     }
     .adaptive-shoppingcardonheader{
-        width:36px;
-        height:44px;
+        width: 6vw;
+        height: 7vw;
     }
     .adaptive-thelupaonheader{
-        width:38px;
-        height:38px;
+        width: 6vw;
+        height: 6vw;
     }
     .header-text-center{
         display:flex;
         order:3;
-        margin-top: 3px;
+        margin-top: 1vw;
     }
 
     .header-text-leftsaid{
         display:flex;
-        margin-right:32px;
+        margin-right:4vw;
         order:4;
     }
 
@@ -1306,7 +3092,7 @@ body{
     }
     .catalog-on-header{
         display: flow;
-        margin-top: 34px;
+        margin-top: 6vw;
         cursor: pointer;
         order:1;
     }
@@ -1316,15 +3102,14 @@ body{
         position: relative;
         background-color:white;
         border:0;
-        width:40px;
-        height:6px;
-        left:34px;
-        margin-bottom:6px;
+        width:7vw;
+        height:1vw;
+        left:4vw;
+        margin-bottom:1vw;
     }
     /*
     Первый фрейм
     */
-
     .first-frame{
         display:flex;
         justify-content: center;
@@ -1335,14 +3120,14 @@ body{
         overflow:hidden;
         box-sizing:border-box;
         width:100%;
-        height:924px;
+        height:154vw;
     }
     .first-frame-container img{
         position: absolute;
         left:0;
         object-fit:cover;
         width:100%;
-        height:924px;
+        height:154vw;
     }
     .back{
         display: none;
@@ -1350,19 +3135,19 @@ body{
     .mobile-back{
         display:flow;
         width:100%;
-        height:924px;
+        height:154vw;
     }
     .text-shop-now{
         display: flex;
-        font-size: 2.4rem;
-        line-height:2.2rem;
+        font-size: 4vw;
+        line-height:3vw;
         color: black;
-        padding: 0 57px 0 56px;
-        border: solid black 3px;
+        padding: 0 8vw 0 7vw;
+        border: solid black 1vw;
         text-decoration: none;
         position: absolute;
-        left:273px;
-        bottom:142px;
+        left:32vw;
+        bottom:21vw;
     }
     .right-side-btns{
         position: absolute;
@@ -1378,40 +3163,40 @@ body{
     }
     .text-firrst-frame{
         position: relative;
-        top: 434px;
-        right: -172px;
-        font-size: 5.5rem;
-        line-height: 5.8rem;
+        top: 67vw;
+        right: -13vw;
+        font-size: 10vw;
+        line-height: 12vw;
         text-align: center;
     }
     .text-firrst-frame::after {
         display: none;
     }
     img.adaptive-black-dress{
-        width:244px;
-        height:364px;
+        width:38vw;
+        height:57vw;
         position:relative;
-        left:177px;
-        top:90px;
+        left:18vw;
+        top:15.6vw;
     }
     .black-dress{
         position: absolute;
-        width:244px;
-        height:364px;
+        width:38vw;
+        height:57vw;
         left:0;
         top:0;
     }
     img.adaptive-flowers-dress{
-        width: 274px;
-        height: 414px;
+        width: 43vw;
+        height: 65vw;
         position: relative;
-        left: 310px;
-        top:68px;
+        left:39vw;
+        top:12vw;
     }
     .flowers-dress{
         position:absolute;
-        width: 274px;
-        height: 414px;
+        width: 43vw;
+        height: 65vw;
         left: 0;
         top:0;
     }
@@ -1423,105 +3208,102 @@ body{
     }
     .back-btn{
         position:relative;
-        padding: 23px 26px 20px 24px;
-        border:1px solid;
-        left:610px;
-        bottom:-835px;
+        padding: 3vw 4vw 2vw 4vw;
+        border:0.3vw solid;
+        left:5vw;
+        bottom:-138vw;
         background-color:black;
         cursor: pointer;
     }
 
     .back-btn-arrow{
-        width: 17px;
-        height: 17px;
+        width: 0.6vw;
+        height: 0.6vw;
     }
 
     .forward-btn{
         position:relative;
-        padding: 23px 24px 20px 26px;
+        padding: 3vw 4vw 2vw 4vw;
         background-color:black;
-        bottom:-835px;
-        left:620px;
-        border:1px solid;
+        bottom:-138vw;
+        left:70vw;
+        border:0.3vw solid;
         cursor: pointer;
     }
     .forward-btn-arrow{
-        width: 17px;
-        height: 17px;
+        width: 0.6vw;
+        height: 0.6vw;
     }
     .rectangle{
         box-sizing:border-box;
         position:relative;
         background-color:rgba(0,0,0,0);
-        width: 26px;
-        height: 26px;
-        bottom:-860px;
-        left:50px;
-        margin-right:11px;
-        border: 1px solid #828282;
+        width: 5vw;
+        height: 5vw;
+        bottom:-141vw;
+        left:37vw;
+        margin-right:2vw;
+        border: 0.3vw solid #828282;
     }
     .rectangle:hover{
-        bottom:-859px;
-        width: 28px;
-        height: 28px;
-        margin-right:10px;
+        bottom:-140vw;
+        width: 6vw;
+        height: 6vw;
+        margin-right:2vw;
         background-color:black;
         cursor: pointer;
-        border: 1px solid black;
+        border: 0.3vw solid black;
     }
 
     /*
     Начало фрейма с брендами
     */
-
     .frane-with-brands-container{
         position:absolute;
         width: 91.35%;
-        height: 374px;
-        top:939px;
+        height: 86vw;
+        top:154vw;
         display:flex;
         justify-content: center;
-        margin-top: 12px;
-        margin-bottom: 12px;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
     }
     .frame-with-brands-text{
         display: none;
     }
     .brands-line{
         display: grid;
-        grid-template:110px 110px 110px / 220px 220px 220px;
-        gap:20px 28px;
+        grid-template:17vw 17vw 17vw 17vw / 44vw 44vw;
+        gap:3vw 4vw;
         position: absolute;
         top:0;
         padding: 0;
         border:none;
     }
     #chanel{
-        grid-area:1/1/2/2 ;
+        grid-area:1/1/1/1 ;
     }
     #armani{
-        grid-area:2/1/2/2 ;
+        grid-area:4/2/4/3 ;
     }
     #burberrry{
-        grid-area:3/3/3/4 ;
-    }
-    #dior{
         grid-area:1/2/2/3 ;
     }
+    #dior{
+        grid-area:2/1/3/2 ;
+    }
     #fendi{
-        grid-area:2/2/3/3 ;
-        display: none;
+        grid-area:4/1/4/2 ;
     }
     #gucci{
-        grid-area:3/2/4/3 ;
+        grid-area:3/1/4/2 ;
     }
     #versace{
-        grid-area:1/3/2/4 ;
-        display: none;
+        grid-area:3/2/4/3 ;
     }
     #fendi-2{
         display: flow;
-        grid-area: 2/3/3/4;
+        grid-area: 2/2/3/3;
     }
     .adaptiv-brand{
         width:100%;
@@ -1537,134 +3319,130 @@ body{
         margin-inline-end: 0;
         margin-inline-start: 0;
         cursor: pointer;
-        border: 3px solid rgba(196, 196, 196, 1);
+        border: 0.6vw solid rgba(196, 196, 196, 1);
     }
     /*
     Фрейм сос кидочками
     */
-
     .frame-with-discount-container{
         margin-top:0;
         display:grid;
-        grid-template: 274px 274px 274px / 100% ;
-        gap: 22px;
+        grid-template: 43vw 89vw 43vw / 98% ;
+        gap: 4vw;
         position:absolute;
-        width: 93.25%;
-        height: 866px;
-        top:1344px;
+        width: 100%;
+        height: 213vw;
+        top:240vw;
         box-sizing:border-box;
     }
     .all-girl-in-a-hat{
         grid-area: 1/1/2/2;
         box-sizing:border-box;
         object-fit: cover;
-        overflow:hidden;
     }
     .adaptiv-girl-in-hat{
-        width:100%;
-        height:274px;
+        width:110%;
+        height:43vw;
     }
     .text-girl-in-a-hat{
         grid-area: 1/1/2/2;
         position:absolute;
-        font-size:4.6rem;
-        line-height:4.9rem;
-        left:386px;
-        top:28px;
+        font-size:5vw;
+        line-height:6vw;
+        left:46vw;
+        top:6vw;
     }
     .subtext-girl-in-a-hat{
         display: block;
-        width: 244px;
+        width: 45vw;
         grid-area: 1/1/2/2;
         position:absolute;
-        left:386px;
-        top:135px;
-        font-size:2rem;
-        line-height:3rem;
+        left:46vw;
+        top:18vw;
+        font-size:3vw;
+        line-height:6vw;
     }
     .see-offers-girl-in-a-hat{
         grid-area: 1/1/2/2;
         position:absolute;
-        left:386px;
-        top:183px;
-        font-size:2rem;
-        line-height:2.4rem;
-        border: 3px solid black;
-        padding: 17px 39px 17px 39px;
+        left:46vw;
+        top:27vw;
+        font-size:3vw;
+        line-height:5vw;
+        border: 0.6vw solid black;
+        padding: 2vw 5vw 2vw 5vw;
     }
     .all-afro-girl{
         grid-area: 2/1/3/2;
         box-sizing:border-box;
-        object-fit:cover;
-        overflow:hidden;
+        object-fit: cover;
     }
     .adaptiv-afro-girl{
-        width:120%;
-        height:120%;
+        width:110%;
+        height:89vw;
     }
     .text-afro-girl{
         display: block;
-        width: 197px;
+        width: 30vw;
         grid-area: 2/1/3/2;
         position:absolute;
-        font-size:4.6rem;
-        line-height:4.9rem;
-        left:37px;
-        bottom:149px;
+        font-size:8vw;
+        line-height:9vw;
+        left:8vw;
+        bottom:31vw;
     }
     .subtext-afro-girl{
         grid-area: 2/1/3/2;
         position:absolute;
-        left:37px;
-        bottom:114px;
-        font-size:2rem;
-        line-height:3rem;
+        left:8vw;
+        bottom:23vw;
+        font-size:3vw;
+        line-height:6vw;
     }
     .see-offers-afro-girl{
         grid-area: 2/1/3/2;
         position:absolute;
-        left:37px;
-        bottom:34px;
-        font-size:2rem;
-        line-height:2.4rem;
-        border: 3px solid black;
-        padding: 17px 39px 17px 39px;
+        left:8vw;
+        bottom:11vw;
+        font-size:3vw;
+        line-height:4vw;
+        border: 0.6vw solid black;
+        padding: 2vw 5vw 2vw 5vw;
     }
     .all-girl-in-black-dress{
         grid-area: 3/1/4/2;
         box-sizing:border-box;
         object-fit: cover;
-        overflow:hidden;
     }
     .adaptiv-girl-in-black-dress{
-        width:100%;
-        height:274px;
+        width:110%;
+        height:43vw;
     }
     .text-girl-in-black-dress{
         grid-area: 3/1/4/2;
         position:absolute;
-        font-size:4.6rem;
-        line-height:4.9rem;
-        left:37px;
-        bottom:169px;
+        font-size:5vw;
+        line-height:6vw;
+        left:10vw;
+        bottom:28vw;
     }
     .subtext-girl-in-black-dress{
         grid-area: 3/1/4/2;
         position:absolute;
-        left:37px;
-        bottom:134px;
-        font-size:2rem;
-        line-height:3rem;
+        left:10vw;
+        bottom:22vw;
+        font-size:3vw;
+        line-height:6vw;
     }
     .see-offers-girl-in-black-dress{
         grid-area: 3/1/4/2;
         position:absolute;
-        left:37px;
-        bottom:34px;
-        font-size:2rem;
-        line-height:2.4rem;
-        border: 3px solid black;
-        padding: 17px 39px 17px 39px;
+        left:10vw;
+        bottom:8vw;
+        font-size:3vw;
+        line-height:4vw;
+        border: 0.6vw solid black;
+        padding: 2vw 5vw 2vw 5vw;
     }
     /*
     Фрейм с тварами
@@ -1672,45 +3450,48 @@ body{
     .frame-with-products-container{
         position:absolute;
         display:grid;
-        grid-template: 520px 520px 520px 520px 75px/ 224px 224px 224px;
-        gap: 22px 22px;
-        width: 92.35%;
-        height:2250px;
-        top:2180px;
+        grid-template: 7vw 81vw 81vw 81vw 81vw 11vw/ 43vw 43vw;
+        gap: 5vw 4vw;
+        width: 91.35%;
+        height:371vw;
+        top:406vw;
         box-sizing:border-box;
         overflow:hidden;
     }
     .check-frame-with-products{
-        grid-area: 1/1/5/1;
-        border-right:1px solid rgba(196, 196, 196, 1);
+        grid-area: 1/1/2/3;
+        border-right:0;
     }
     .shop-some-wear{
-        grid-area: 1/1/5/1;
-        font-size:2.8rem;
+        grid-area: 1/1/2/3;
+        font-size:5vw;
+    }
+    .checkbox-in-frame-with-products{
+        display: none;
     }
     .one-first-row-frame-with-products{
-        grid-area: 1/2/2/3;
+        grid-area: 2/1/3/2;
     }
     .two-first-row-frame-with-products{
-        grid-area: 2/2/3/3;
+        grid-area: 3/1/4/2;
     }
     .three-first-row-frame-with-products{
-        grid-area: 3/2/4/2;
+        grid-area: 4/1/5/2;
     }
     .four-first-row-frame-with-products{
-        grid-area: 4/2/5/3;
+        grid-area: 5/1/6/2;
     }
     .one-second-row-frame-with-products{
-        grid-area: 1/3/2/4;
+        grid-area: 2/2/3/3;
     }
     .two-second-row-frame-with-products{
-        grid-area: 2/3/3/4;
+        grid-area: 3/2/4/3;
     }
     .three-second-row-frame-with-products{
-        grid-area: 3/3/4/4;
+        grid-area: 4/2/5/3;
     }
     .four-second-row-frame-with-products{
-        grid-area: 4/3/5/4;
+        grid-area: 5/2/6/3;
     }
     .link-in-frame-with-products{
         text-decoration: none;
@@ -1718,7 +3499,7 @@ body{
     }
     .adaptive-pictures-in-catalog{
         width:100%;
-        height:364px;
+        height:57vw;
         object-fit:cover;
     }
     .load-more-frame-with-products{
@@ -1734,41 +3515,41 @@ body{
         text-decoration: none;
         background-color: white;
         cursor: pointer;
-        grid-area: 5/2/6/3;
-        width: 100%;
+        grid-area: 6/1/7/2;
+        width: 210%;
         bottom:0;
         left:0;
         margin-top:0;
-        font-size:2.2rem;
-        line-height:2.8rem;
-        border: 3px solid rgba(196, 196, 196, 1);
-        padding: 16px 0 16px 0;
+        font-size:4vw;
+        line-height:6vw;
+        border: 0.6vw solid rgba(196, 196, 196, 1);
+        padding: 2vw 0 2vw 0;
     }
     .vid-odejdi{
-        margin-top: 2px;
-        font-size:2rem;
-        line-height:3rem;
+        margin-top: 0.6vw;
+        font-size:3vw;
+        line-height:5vw;
     }
     .opisanie{
         font-family:"Oswald", sans-serif;
-        font-size:2.4rem;
-        line-height:3.6rem;
+        font-size:4vw;
+        line-height:5vw;
         color:black;
     }
     .count{
-        font-size:2.8rem;
-        line-height:4.1rem;
+        font-size:4vw;
+        line-height:6vw;
         margin-top: 0;
     }
     .count.red{
         color:rgba(235, 87, 87, 1);
     }
     .discount{
-        font-size:1.5rem;
-        line-height:2.4rem;
+        font-size:2vw;
+        line-height:4vw;
         text-decoration:line-through;
         color:rgba(130, 130, 130, 1);
-        margin-left: 4px;
+        margin-left: 1vw;
     }
 
     /*
@@ -1783,38 +3564,38 @@ body{
     }
     .shoping-withouts-limits-conteiner{
         position:absolute;
-        width: 92.35%;
-        top:4450px;
-        height:126px;
+        width: 91.35%;
+        top:782vw;
+        height:39vw;
     }
     .adaptiv-girl-on-blue-fone{
         display: none;
     }
     .koleni-mobile{
         display:flow;
-        height:252px;
+        height:39vw;
         width:100%;
     }
     .shoping-withouts-limits-gradient{
         position:absolute;
         width:80%;
-        height:252px;
+        height:39vw;
         background: linear-gradient(to right, rgba(221, 235, 241, 1) , rgba(211, 229, 238, 1), rgba(200, 222, 236, 1), rgba(255, 255, 255, 0));
     }
     .shoping-withouts-limits-text{
-        top:27px;
-        left:33px;
-        font-size: 3.8rem;
+        top:6vw;
+        left:7vw;
+        font-size: 4vw;
     }
     .shoping-withouts-limits-text:before{
         display: none;
     }
     .shoping-withouts-limits-subtext-mobile{
         display:flow;
-        top:85px;
-        left:33px;
-        font-size:2rem;
-        line-height:2.8rem;
+        top:13vw;
+        left:7vw;
+        font-size:3vw;
+        line-height:5vw;
         font-family:"Roboto Light", sans-serif;
         position:absolute;
         font-weight:400;
@@ -1825,11 +3606,11 @@ body{
     .shop-now-shoping-withouts-limits{
         position: absolute;
         display: inline-block;
-        top:158px;
-        left:33px;
-        font-size:2rem;
-        line-height:2.4rem;
-        border: 3px solid black;
-        padding: 17px 39px 17px 39px;
+        top:24vw;
+        left:7vw;
+        font-size:3vw;
+        line-height:5vw;
+        border: 0.6vw solid black;
+        padding: 2vw 6vw 2vw 6vw;
     }
 }
